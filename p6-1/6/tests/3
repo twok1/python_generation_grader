@@ -1,0 +1,4 @@
+iterator = Peekable('Python')
+
+print(*iterator)
+print(iterator.peek(None))

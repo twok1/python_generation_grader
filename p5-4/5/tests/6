@@ -1,0 +1,5 @@
+matrix1 = Matrix(4, 2)
+matrix2 = Matrix(10, 20, value=6)
+
+print(repr(matrix1))
+print(repr(matrix2))

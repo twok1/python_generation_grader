@@ -1,0 +1,4 @@
+print(bool(Vector(1, 2)))
+print(bool(Vector(1, 0)))
+print(bool(Vector(0, 1)))
+print(bool(Vector(0, 0)))

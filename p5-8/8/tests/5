@@ -1,0 +1,3 @@
+user = ProtectedObject(login='PG_kamiya', _password='alreadybanned')
+print(object.__getattribute__(user, 'login'))
+print(object.__getattribute__(user, '_password'))

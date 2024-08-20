@@ -1,0 +1,3 @@
+god = DefaultObject(name='Kratos', mythology='greek')
+print('name' in god.__dict__)
+print('mythology' in god.__dict__)

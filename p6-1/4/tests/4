@@ -1,0 +1,3 @@
+skipiterator = SkipIterator('abcd', 0)
+
+print(*skipiterator)

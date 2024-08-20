@@ -1,0 +1,9 @@
+chars_sequence = ["X'r", 'q8|', 'M8y', 'uE^', 'N9F', '"kw', '5j_', '" t', 'klB', 'a=']
+words = ["XrragainX'X", '8||bring||8', 'yyyfamily8y8', '^^^put^^u', '99Feight9FF', '"k"protectwwk', 'jjjoptionj55',
+         't" responsettt', 'kkBrisekBB', 'a=anationala==']
+
+for word in words:
+    for chars in chars_sequence:
+        strip = Strip(chars)
+        word = strip(word)
+    print(word)

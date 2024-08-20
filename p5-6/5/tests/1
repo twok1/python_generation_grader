@@ -1,0 +1,4 @@
+strip = Strip('!? ')
+
+print(strip('     ?beegeek!'))
+print(strip('!bee?geek!'))

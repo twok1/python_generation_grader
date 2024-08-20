@@ -1,0 +1,8 @@
+vector1 = Vector(5, 10)
+vector2 = Vector(10, 15)
+
+vector3 = vector1 - vector2
+vector4 = vector2 - vector1
+
+print(vector3)
+print(vector4)

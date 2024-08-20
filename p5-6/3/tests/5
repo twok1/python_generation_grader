@@ -1,0 +1,2 @@
+kingdice = Dice(20)
+print(callable(kingdice))

@@ -1,0 +1,4 @@
+kingdice = Dice(100)
+
+for _ in range(100):
+    print(kingdice() in range(1, 101))

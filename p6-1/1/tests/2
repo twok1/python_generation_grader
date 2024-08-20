@@ -1,0 +1,4 @@
+point = Point(1, 2, 3)
+x, y, z = point
+
+print(x, y, z)

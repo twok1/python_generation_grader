@@ -1,0 +1,4 @@
+queue = Queue(1, 2, 3)
+print(queue.__add__([]))
+print(queue.__iadd__('bee'))
+print(queue.__rshift__('geek'))

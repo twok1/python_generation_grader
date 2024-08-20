@@ -1,0 +1,6 @@
+videogame = Const(name='Disco Elysium')
+
+try:
+    videogame.name = 'Half-Life: Alyx'
+except AttributeError as e:
+    print(e)

@@ -1,0 +1,15 @@
+queue = Queue(1, 2, 3, 4, 5)
+id1 = id(queue)
+print(queue)
+
+queue += Queue(6, 7, 8, 9, 10)
+id2 = id(queue)
+
+print(queue)
+print(id1 == id2)
+
+queue = queue + Queue(11, 12, 13, 14, 15)
+id3 = id(queue)
+
+print(queue)
+print(id1 == id3)

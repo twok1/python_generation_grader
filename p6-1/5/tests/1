@@ -1,0 +1,4 @@
+randomlooper = RandomLooper(['red', 'blue', 'green', 'purple'])
+
+print(list(randomlooper))
+print(list(randomlooper))

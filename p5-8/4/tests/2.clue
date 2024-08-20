@@ -1,0 +1,3 @@
+Tyr
+scandinavian
+0

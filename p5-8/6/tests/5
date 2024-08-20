@@ -1,0 +1,12 @@
+person = AttrsNumberObject(name='Mark')
+
+print(person.attrs_num)
+
+person.surname = 'Zuckerberg'
+print(person.attrs_num)
+
+person.age = 38
+print(person.attrs_num)
+
+person.job = 'Programmer'
+print(person.attrs_num)

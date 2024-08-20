@@ -1,0 +1,4 @@
+point = ColoredPoint(0, 0, (0, 0, 0))
+
+print(f'{+point}; {-point}; {~point}')
+print(point.color)

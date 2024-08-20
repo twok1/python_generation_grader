@@ -1,0 +1,9 @@
+Queue >> 0 = b -> e -> e -> g -> e -> e -> k
+Queue >> 1 = e -> e -> g -> e -> e -> k
+Queue >> 2 = e -> g -> e -> e -> k
+Queue >> 3 = g -> e -> e -> k
+Queue >> 4 = e -> e -> k
+Queue >> 5 = e -> k
+Queue >> 6 = k
+Queue >> 7 = 
+Queue >> 8 = 

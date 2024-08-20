@@ -1,0 +1,12 @@
+from itertools import islice
+
+iterator = Peekable([n ** 2 for n in [1, 2, 3, 4, 5]])
+
+print(iterator.peek())
+print(list(islice(iterator, 2)))
+
+print(iterator.peek())
+print(iterator.peek())
+
+print(list(islice(iterator, 2)))
+print(list(islice(iterator, 2)))

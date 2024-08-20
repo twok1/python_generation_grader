@@ -1,0 +1,5 @@
+videogame = Const(name='Cuphead')
+
+videogame.developer = 'Studio MDHR'
+print(videogame.name)
+print(videogame.developer)

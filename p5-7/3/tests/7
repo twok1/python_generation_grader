@@ -1,0 +1,6 @@
+romans1 = ['I', 'X', 'L', 'IV', 'IX', 'XLV', 'CXXIV', 'MCMXCIV']
+romans2 = ['I', 'V', 'L', 'VI', 'XI', 'XXV', 'CDXLVIII', 'MCMXCI']
+
+for x, y in zip(romans1, romans2):
+    number = RomanNumeral(x) + RomanNumeral(y)
+    print(number, int(number))

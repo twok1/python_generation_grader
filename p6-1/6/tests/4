@@ -1,0 +1,11 @@
+iterator = Peekable(iter([]))
+
+try:
+    iterator.peek()
+except StopIteration:
+    print('Пустой итератор')
+
+try:
+    next(iterator)
+except StopIteration:
+    print('Пустой итератор')

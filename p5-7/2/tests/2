@@ -1,0 +1,7 @@
+t1 = Temperature(1)
+t2 = Temperature(0)
+t3 = Temperature(-1)
+
+print(bool(t1))
+print(bool(t2))
+print(bool(t3))

@@ -1,0 +1,6 @@
+course = Item('pygen', 3900, 2)
+
+print(course.name)
+print(course.price)
+print(course.quantity)
+print(course.total)

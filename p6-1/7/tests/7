@@ -1,0 +1,4 @@
+loop_tracker = LoopTracker([1, 2, 3])
+
+print(loop_tracker.first)
+print(next(loop_tracker))

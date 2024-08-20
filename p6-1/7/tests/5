@@ -1,0 +1,13 @@
+loop_tracker = LoopTracker([1, 2])
+
+print(loop_tracker.empty_accesses)
+next(loop_tracker)
+next(loop_tracker)
+
+for _ in range(5):
+    try:
+        next(loop_tracker)
+    except StopIteration:
+        pass
+        
+print(loop_tracker.empty_accesses)

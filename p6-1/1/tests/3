@@ -1,0 +1,2 @@
+points = [Point(4, 7, 0), Point(1, 5, 10), Point(12, 23, 44)]
+print(points)

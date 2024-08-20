@@ -1,0 +1,4 @@
+obj = Ord()
+
+print(obj.a)
+print(obj.b)

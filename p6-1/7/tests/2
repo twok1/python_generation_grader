@@ -1,0 +1,6 @@
+loop_tracker = LoopTracker([1, 2, 3])
+
+print(loop_tracker.accesses)
+next(loop_tracker)
+next(loop_tracker)
+print(loop_tracker.accesses)

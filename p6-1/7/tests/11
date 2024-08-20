@@ -1,0 +1,7 @@
+loop_tracker = LoopTracker(range(1_000))
+
+for _ in range(100_000):
+    next(loop_tracker, None)
+
+print(loop_tracker.accesses)
+print(loop_tracker.empty_accesses)

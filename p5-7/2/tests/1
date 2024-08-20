@@ -1,0 +1,6 @@
+t = Temperature(5.5)
+
+print(t)
+print(int(t))
+print(float(t))
+print(t.to_fahrenheit())

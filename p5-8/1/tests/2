@@ -1,0 +1,4 @@
+fruit = Item('banana', 15, 5)
+
+print(fruit.name)
+print(fruit.total)

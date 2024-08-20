@@ -1,0 +1,5 @@
+vector = Vector(0, 0)
+print(bool(vector))
+print(int(vector))
+print(float(vector))
+print(complex(vector))

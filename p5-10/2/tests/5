@@ -1,0 +1,6 @@
+row = Row(a=1, b=2, c=3)
+
+try:
+    del row.a
+except AttributeError as e:
+    print(e)

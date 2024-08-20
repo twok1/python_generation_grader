@@ -1,0 +1,20 @@
+vectors = [Vector(160, 880), Vector(440, 820), Vector(450, 190), Vector(590, 470), Vector(700, 760), Vector(190, 480),
+           Vector(490, 150), Vector(210, 980), Vector(690, 940), Vector(820, 320), Vector(590, 570), Vector(650, 420),
+           Vector(520, 200), Vector(380, 870), Vector(1000, 360), Vector(200, 950), Vector(860, 480), Vector(980, 850),
+           Vector(420, 950), Vector(500, 460), Vector(140, 520), Vector(280, 1000), Vector(170, 550), Vector(550, 330),
+           Vector(60, 470), Vector(890, 60), Vector(880, 140), Vector(170, 170), Vector(210, 950), Vector(720, 960),
+           Vector(470, 120), Vector(130, 720), Vector(390, 500), Vector(900, 710), Vector(810, 710), Vector(290, 790),
+           Vector(200, 270), Vector(400, 680), Vector(450, 810), Vector(180, 650), Vector(190, 730), Vector(330, 560),
+           Vector(560, 260), Vector(830, 120), Vector(600, 220), Vector(460, 300), Vector(950, 130), Vector(300, 340),
+           Vector(230, 740), Vector(970, 900), Vector(710, 630), Vector(360, 1000), Vector(740, 580), Vector(370, 450),
+           Vector(140, 450), Vector(700, 160), Vector(850, 250), Vector(860, 670), Vector(810, 850), Vector(900, 560),
+           Vector(580, 310), Vector(350, 330), Vector(210, 960), Vector(480, 310), Vector(350, 310), Vector(900, 230),
+           Vector(300, 270), Vector(1000, 120), Vector(640, 810), Vector(300, 340), Vector(200, 300), Vector(240, 50),
+           Vector(250, 890), Vector(110, 320), Vector(950, 450), Vector(250, 200), Vector(170, 970), Vector(350, 90),
+           Vector(110, 310), Vector(80, 120), Vector(910, 810), Vector(110, 510), Vector(80, 280), Vector(710, 500),
+           Vector(550, 210), Vector(520, 740), Vector(170, 180), Vector(750, 540), Vector(420, 480), Vector(910, 800),
+           Vector(420, 490), Vector(870, 780), Vector(630, 570), Vector(460, 820), Vector(340, 730), Vector(440, 100),
+           Vector(860, 50), Vector(100, 890), Vector(710, 520), Vector(530, 120)]
+
+for vector in vectors:
+    print(vector / 10)

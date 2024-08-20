@@ -1,0 +1,4 @@
+number = RomanNumeral('I') + RomanNumeral('II') + RomanNumeral('III') - RomanNumeral('V') 
+
+print(number)
+print(int(number))

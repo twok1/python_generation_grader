@@ -1,0 +1,13 @@
+class Kemal:
+    def __init__(self):
+        self.family = 'cats'
+        self.breed = 'british'
+        self.master = 'Kemal'
+
+
+kemal = Kemal()
+attrs_iterator = AttrsIterator(kemal)
+
+print(next(attrs_iterator))
+print(next(attrs_iterator))
+print(next(attrs_iterator))

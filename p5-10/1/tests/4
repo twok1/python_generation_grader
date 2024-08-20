@@ -1,0 +1,5 @@
+point1 = ColoredPoint(10, 20, 'black')
+point2 = ColoredPoint(10, 20, 'black')
+
+print(point1 == point2)
+print(point1 != point2)

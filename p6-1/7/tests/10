@@ -1,0 +1,6 @@
+loop_tracker = LoopTracker([1, 2, 3])
+
+try:
+    print(loop_tracker.last)
+except AttributeError as e:
+    print(e)

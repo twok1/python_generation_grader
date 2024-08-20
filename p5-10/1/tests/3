@@ -1,0 +1,6 @@
+point = ColoredPoint(1, 2, 'white')
+
+try:
+    point.color = 'black'
+except AttributeError as e:
+    print('Error')

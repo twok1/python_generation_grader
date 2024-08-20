@@ -1,0 +1,7 @@
+user = ProtectedObject(login='PG_kamiya', _password='alreadybanned')
+
+user.login = 'Kamiya'
+print(user.login)
+
+user.nickname = 'PG'
+print(user.nickname)

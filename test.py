@@ -76,7 +76,7 @@ def run_test(
         )
 
         if result != correct:
-            print(f"Test#{test_index} Input:" + "\n".join(test_data))
+            print(f"Test#{test_index} Input:\n" + "\n".join(test_data))
             print(f"Test#{test_index} Expected Output:" + "\n".join(correct))
             print(f"Test#{test_index} Actual Output:" + "\n".join(result))
 
@@ -111,7 +111,10 @@ if __name__ == "__main__":
     script_file = input(
         "Enter py-file's path from the content root: "
     )
+    script_file += '\\' + os.path.split(script_file)[-1] + '.py'
     module_folder, tested_file = os.path.split(script_file)
+    # module_folder = script_file
+    # tested_file = os.path.split(script_file)[-1] + '.py'
     DIR = pathlib.Path(__file__).parent.resolve()
     tests_dir = os.path.join(DIR, f"{module_folder}/tests")
     executor = os.path.join(DIR, "executor.py")

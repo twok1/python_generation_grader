@@ -1,0 +1,1 @@
+[('Denis', 'junior'), ('Gvido', 'senior'), ('Alan', 'senior')]

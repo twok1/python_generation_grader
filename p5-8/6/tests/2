@@ -1,0 +1,3 @@
+music_group = AttrsNumberObject()
+
+print(music_group.attrs_num)

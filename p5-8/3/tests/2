@@ -1,0 +1,4 @@
+obj = Ord()
+
+print(obj.в)
+print(obj.г)

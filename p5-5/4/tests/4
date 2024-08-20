@@ -1,0 +1,4 @@
+time1 = Time(25, 20)
+time2 = Time(10, 130)
+
+print(time1 + time2)

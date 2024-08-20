@@ -1,0 +1,14 @@
+person = Const()
+
+person.name = 'Erlich'
+person.surname = 'Bachmann'
+
+try:
+    del person.name
+except AttributeError as e:
+    print(e)
+
+try:
+    person.surname = 'Hendrix'
+except AttributeError as e:
+    print(e)

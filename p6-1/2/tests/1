@@ -1,0 +1,6 @@
+beegeek = DevelopmentTeam()
+
+beegeek.add_junior('Timur')
+beegeek.add_junior('Arthur', 'Valery')
+beegeek.add_senior('Gvido')
+print(*beegeek, sep='\n')

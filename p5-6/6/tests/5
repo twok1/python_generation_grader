@@ -1,0 +1,14 @@
+no_more_than_six = Filter(lambda x: len(x) <= 6)
+
+words = ['everybody', 'Congress', 'model', 'likely', 'information', 'meeting', 'hard', 'reduce', 'visit', 'stuff',
+         'line', 'standard', 'from', 'help', 'usually', 'need', 'small', 'teacher', 'himself', 'century', 'reason',
+         'something', 'year', 'president', 'buy', 'case', 'ten', 'certainly', 'fear', 'special', 'goal', 'include',
+         'suffer', 'traditional', 'explain', 'me', 'into', 'executive', 'husband', 'health', 'five', 'minute', 'want',
+         'trip', 'see', 'politics', 'money', 'still', 'task', 'our', 'environment', 'beat', 'stay', 'quickly', 'above',
+         'increase', 'since', 'front', 'suggest', 'amount', 'will', 'production', 'hit', 'probably', 'present',
+         'science', 'improve', 'discover', 'scientist', 'state', 'total', 'speak', 'administration', 'experience',
+         'media', 'determine', 'cut', 'with', 'reveal', 'finish', 'short', 'share', 'new', 'eight', 'worker', 'someone',
+         'beyond', 'various', 'modern', 'most', 'brother', 'room', 'interest', 'a', 'agreement', 'treat', 'break',
+         'none', 'serious', 'cup']
+
+print(no_more_than_six(words))

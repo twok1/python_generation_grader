@@ -1,0 +1,6 @@
+t1 = Time(15, 50)
+t2 = Time(2, 20)
+print(t1 + t2)
+
+t1 += Time(2, 20)
+print(t1)

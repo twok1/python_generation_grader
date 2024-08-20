@@ -1,0 +1,5 @@
+point1 = ColoredPoint(2, -3)
+point2 = ColoredPoint(10, 20, (34, 45, 67))
+
+print(point1.color)
+print(point2.color)

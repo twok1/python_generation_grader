@@ -1,0 +1,9 @@
+beegeek << 0 = beegeek
+beegeek << 1 = beegee
+beegeek << 2 = beege
+beegeek << 3 = beeg
+beegeek << 4 = bee
+beegeek << 5 = be
+beegeek << 6 = b
+beegeek << 7 = 
+beegeek << 8 = 

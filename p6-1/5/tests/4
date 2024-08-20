@@ -1,0 +1,4 @@
+randomlooper = RandomLooper(['red', 'blue', 'green', 'purple'])
+
+answer = [next(randomlooper) for _ in range(4)]
+print(answer)

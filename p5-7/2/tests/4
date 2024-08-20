@@ -1,0 +1,7 @@
+t = Temperature.from_fahrenheit(-459.67)
+
+print(t)
+print(bool(t))
+print(int(t))
+print(f'{float(t):.2f}')
+print(f'{t.to_fahrenheit():.2f}')

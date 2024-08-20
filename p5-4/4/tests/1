@@ -1,0 +1,5 @@
+point = ColoredPoint(2, -3)
+
+print(+point)
+print(-point)
+print(~point)

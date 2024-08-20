@@ -1,0 +1,10 @@
+point = ColoredPoint(71, 42, 'Indigo')
+
+not_supported = [6952, 208621309.925047, 'Крестик на моей груди, на него ты погляди', False,
+                 {'whom': True, 'administration': 1862, 'collection': 56102.956722026},
+                 (-326.5668977995, True, 'Темный, мрачный коридор, Я на цыпочках, как вор', 975006604.874278),
+                 [3599, 26637.9272286489, 'JeGfEEwKXxCoxlTBTYnL', -25690105773711.2],
+                 {'izPmPJcBqaYBUfrSHpin', -850300479586.218, 22.2224616976328}]
+
+for item in not_supported:
+    print(item == point)

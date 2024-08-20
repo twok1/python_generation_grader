@@ -1,0 +1,6 @@
+superstring = SuperString('bee')
+print(superstring.__add__([]))
+print(superstring.__mul__(()))
+print(superstring.__truediv__({}))
+print(superstring.__lshift__(set()))
+print(superstring.__rshift__('geek'))

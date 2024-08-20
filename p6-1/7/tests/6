@@ -1,0 +1,7 @@
+loop_tracker = LoopTracker([1, 2])
+
+print(loop_tracker.is_empty())
+next(loop_tracker)
+print(loop_tracker.is_empty())
+next(loop_tracker)
+print(loop_tracker.is_empty())

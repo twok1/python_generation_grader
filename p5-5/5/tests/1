@@ -1,0 +1,7 @@
+queue = Queue(1, 2)
+queue.add(3)
+queue.add(4, 5)
+
+print(queue)
+print(queue.pop())
+print(queue)

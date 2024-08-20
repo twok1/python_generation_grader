@@ -1,0 +1,1 @@
+{ColoredPoint(1, 2, 'white'): 10, ColoredPoint(1, 2, 'black'): 20}

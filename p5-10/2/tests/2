@@ -1,0 +1,8 @@
+row1 = Row(a=1, b=2, c=3)
+row2 = Row(a=1, b=2, c=3)
+row3 = Row(b=2, c=3, a=1)
+
+print(row1 == row2)
+print(hash(row1) == hash(row2))
+print(row1 == row3)
+print(hash(row1) == hash(row3))

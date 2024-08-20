@@ -1,0 +1,7 @@
+food1 = FoodInfo(10, 20, 30)
+food2 = FoodInfo(10, 10, 20)
+
+print(food1 + food2)
+print(food1 * 2)
+print(food1 / 2)
+print(food1 // 2)

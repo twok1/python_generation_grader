@@ -1,0 +1,2 @@
+t = Temperature.from_fahrenheit(132.7)
+print(t)

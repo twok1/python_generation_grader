@@ -1,0 +1,7 @@
+pied_piper = DevelopmentTeam()
+
+pied_piper.add_senior('Richard', 'Gilfoyle', 'Dinesh', 'Erlich')
+pied_piper.add_junior('Jared', 'Big Head')
+
+print(*pied_piper, sep='\n')
+print(len(list(pied_piper)))

@@ -1,0 +1,6 @@
+romans1 = ['III', 'X', 'L', 'C', 'M', 'XXV', 'XC', 'MMMCMXXXV']
+romans2 = ['II', 'V', 'X', 'L', 'D', 'IV', 'VIII', 'MCMXCIV']
+
+for x, y in zip(romans1, romans2):
+    number = RomanNumeral(x) - RomanNumeral(y)
+    print(number, int(number))

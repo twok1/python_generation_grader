@@ -1,0 +1,13 @@
+from itertools import islice
+
+iterator = Peekable([1, 2, 3])
+
+print(iterator.peek())
+print(list(islice(iterator, 2)))
+print(iterator.peek())
+print(list(iterator))
+
+try:
+    iterator.peek()
+except StopIteration:
+    print('Пустой итератор')

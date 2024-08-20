@@ -1,0 +1,3 @@
+fr_format = DateFormatter('fr')
+
+print(fr_format(date(2022, 11, 7)))

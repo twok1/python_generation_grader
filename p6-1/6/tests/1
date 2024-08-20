@@ -1,0 +1,5 @@
+iterator = Peekable('beegeek')
+
+print(next(iterator))
+print(next(iterator))
+print(*iterator)

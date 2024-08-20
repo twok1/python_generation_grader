@@ -1,0 +1,1 @@
+['circle', 'red', 'purple', 'octagon', 'triangle', 'green', 'blue', 'square']

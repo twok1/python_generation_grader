@@ -1,0 +1,6 @@
+vector = Vector(3, -4)
+
+print(vector)
+print(int(vector))
+print(float(vector))
+print(complex(vector))

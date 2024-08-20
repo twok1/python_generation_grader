@@ -1,0 +1,8 @@
+point1 = ColoredPoint(1, 2, 'white')
+point2 = ColoredPoint(1, 2, 'white')
+point3 = ColoredPoint(3, 4, 'black')
+
+print(point1 == point2)
+print(hash(point1) == hash(point2))
+print(point1 == point3)
+print(hash(point1) == hash(point3))

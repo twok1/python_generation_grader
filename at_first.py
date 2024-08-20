@@ -4,17 +4,16 @@ import zipfile
 
 
 def create_task_structure(module_folder, task_number):
-    task_folder_name = f"task{task_number}"
+    task_folder_name = f"{task_number}"
     task_folder_path = os.path.join(module_folder, task_folder_name)
 
     if not os.path.exists(task_folder_path):
         os.makedirs(os.path.join(task_folder_path, "tests"), exist_ok=True)
 
-    task_file_path = os.path.join(task_folder_path, f"task{task_number}.py")
+    task_file_path = os.path.join(task_folder_path, f"{task_number}.py")
     if not os.path.exists(task_file_path):
         with open(task_file_path, 'w') as f:
-            pass
-    return os.path.join(task_folder_path, "tests")
+            return os.path.join(task_folder_path, "tests")
 
 
 def download_and_extract_zip(url, extract_to):

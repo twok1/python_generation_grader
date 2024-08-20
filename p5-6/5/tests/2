@@ -1,0 +1,5 @@
+strip = Strip('.,+-')
+
+print(strip('     --++beegeek++--'))
+print(strip('-bee...geek-'))
+print(strip('-+,.b-e-e-g-e-e-k-+,.'))

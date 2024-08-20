@@ -1,0 +1,6 @@
+user = ProtectedObject(login='PG_kamiya', _password='alreadybanned')
+
+try:
+    user.__dict__['attr'] = 1
+except AttributeError as e:
+    print(e)

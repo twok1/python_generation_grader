@@ -1,0 +1,7 @@
+hash_function = limited_hash(10, 15)
+
+print(hash_function(16))
+print(hash_function(17))
+print(hash_function(21))
+print(hash_function(22))
+print(hash_function(23))

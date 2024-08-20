@@ -1,0 +1,5 @@
+god = DefaultObject(default=0, name='Tyr', mythology='scandinavian')
+
+print(god.name)
+print(god.mythology)
+print(god.age)

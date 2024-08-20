@@ -1,0 +1,4 @@
+romans = ['I', 'IV', 'IX', 'XII', 'XXV', 'XLV', 'LXIX', 'XC', 'CDXLVIII']
+
+for num in romans:
+    print(RomanNumeral(num), int(RomanNumeral(num)))

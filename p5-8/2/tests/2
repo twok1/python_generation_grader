@@ -1,0 +1,7 @@
+obj = Logger()
+
+obj.name = 'pygen'
+obj.rating = '5*'
+obj.ceo = 'Timur'
+del obj.rating
+obj.rating = '6*'

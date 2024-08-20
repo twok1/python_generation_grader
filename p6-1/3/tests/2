@@ -1,0 +1,13 @@
+class User:
+    def __init__(self, name, surname, age):
+        self.name = name
+        self.surname = surname
+        self.age = age
+        
+user = User('Debbie', 'Harry', 77)
+user.profession = 'singer'
+user.height = 160
+
+attrsiterator = AttrsIterator(user)
+
+print(*attrsiterator, sep='\n')

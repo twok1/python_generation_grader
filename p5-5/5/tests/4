@@ -1,0 +1,6 @@
+queue1 = Queue(1, 2, 3)
+queue2 = Queue(4, 5)
+
+queue1 += queue2
+
+print(queue1)

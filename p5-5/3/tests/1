@@ -1,0 +1,5 @@
+s1 = SuperString('bee')
+s2 = SuperString('geek')
+
+print(s1 + s2)
+print(s2 + s1)

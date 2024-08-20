@@ -1,0 +1,3 @@
+queue = Queue(*'beegeek')
+for i in range(9):
+    print(f'Queue >> {i} =', queue >> i)

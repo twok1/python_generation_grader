@@ -1,0 +1,5 @@
+q1 = Queue(1, 2)
+q2 = Queue(1, 2)
+
+print(q1 == q2)
+print(q1 != q2)

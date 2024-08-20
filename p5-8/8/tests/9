@@ -1,0 +1,8 @@
+user = ProtectedObject(login='PG_kamiya', _password='alreadybanned')
+
+del user.login
+
+try:
+    print(user.login)
+except AttributeError:
+    print('Атрибут отсутствует')

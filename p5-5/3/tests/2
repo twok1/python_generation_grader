@@ -1,0 +1,5 @@
+s = SuperString('beegeek')
+
+print(s * 2)
+print(3 * s)
+print(s / 3)

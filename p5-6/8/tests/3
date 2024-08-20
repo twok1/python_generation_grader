@@ -1,0 +1,6 @@
+print = CountCalls(print)
+
+print('hello', 'beegeek')
+print('stepik')
+print('pygen')
+print(print.calls)

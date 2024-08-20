@@ -1,0 +1,8 @@
+t = Time(13, 0)
+print(t)
+id1 = id(t)
+
+t += Time(2, 30)
+id2 = id(t)
+print(t)
+print(id1 == id2)

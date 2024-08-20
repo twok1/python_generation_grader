@@ -1,0 +1,10 @@
+gain
+bring
+fami
+pu
+eigh
+protec
+option
+response
+rise
+national

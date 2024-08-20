@@ -1,0 +1,9 @@
+hash_function = limited_hash(2, 3, hash_function=lambda obj: len(str(obj)))
+
+print(hash_function('a'))
+print(hash_function('ab'))
+print(hash_function('abc'))
+print(hash_function('abcd'))
+print(hash_function('abcde'))
+print(hash_function('abcdef'))
+print(hash_function('abcdefg'))

@@ -1,0 +1,1 @@
+print(hash_function(12345))

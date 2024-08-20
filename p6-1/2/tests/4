@@ -1,0 +1,4 @@
+beegeek = DevelopmentTeam()
+
+beegeek.add_senior('Arthur', 'Valery', 'Timur')
+print(*beegeek, sep='\n')

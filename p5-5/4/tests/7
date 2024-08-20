@@ -1,0 +1,3 @@
+t = Time(40, 80)
+print(t.__add__([]))
+print(t.__iadd__('bee'))

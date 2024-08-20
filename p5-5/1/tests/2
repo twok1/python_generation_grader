@@ -1,0 +1,6 @@
+food1 = FoodInfo(10, 20, 30)
+
+try:
+    food2 = (5, 10, 15) + food1
+except TypeError:
+    print('Некорректный тип данных')

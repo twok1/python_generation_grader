@@ -1,0 +1,4 @@
+row = Row(a='A', b='B', c='C')
+
+print(row)
+print(row.a, row.b, row.c)

@@ -1,0 +1,4 @@
+number = RomanNumeral('MXL') + RomanNumeral('MCDVIII') - RomanNumeral('I')
+
+print(number)
+print(int(number))

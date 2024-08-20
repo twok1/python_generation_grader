@@ -1,0 +1,16 @@
+class Kish:
+    def __init__(self, song, year):
+        self.song = song
+        self.year = year
+
+
+forester = Kish('лесник', 1997)
+attrs_iterator = AttrsIterator(forester)
+
+next(attrs_iterator)
+next(attrs_iterator)
+
+try:
+    next(attrs_iterator)
+except StopIteration:
+    print('Атрибуты закончились')

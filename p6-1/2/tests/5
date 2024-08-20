@@ -1,0 +1,6 @@
+smart_monkey = DevelopmentTeam()
+
+smart_monkey.add_senior('Gvido', 'Alan')
+smart_monkey.add_junior('Denis')
+
+print(list(smart_monkey))

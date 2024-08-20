@@ -1,0 +1,6 @@
+videogame = Const(name='The Last of Us')
+
+try:
+    del videogame.name
+except AttributeError as e:
+    print(e)

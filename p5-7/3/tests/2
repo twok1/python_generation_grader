@@ -1,0 +1,4 @@
+number = RomanNumeral('X') - RomanNumeral('VI')
+
+print(number)
+print(int(number))

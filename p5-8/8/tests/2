@@ -1,0 +1,6 @@
+user = ProtectedObject(login='PG_kamiya', _password='alreadybanned')
+
+try:
+    user._password = 'qwerty12345'
+except AttributeError as e:
+    print(e)

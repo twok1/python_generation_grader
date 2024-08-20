@@ -1,0 +1,8 @@
+a = RomanNumeral('X')
+b = RomanNumeral('X')
+
+print(a == b)
+print(a > b)
+print(a < b)
+print(a >= b)
+print(a <= b)

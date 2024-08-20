@@ -1,0 +1,12 @@
+food1 = FoodInfo(10, 20, 30)
+not_supported = [1826, -4950968.5187661, 'CpORszTrvuNBLTkwONAK', True,
+                 {'their': 1160, 'turn': True, 'administration': 75837.8091359427, 'consider': True},
+                 (4282, 'pEXkpjHTDfoOodeUvrxX', -65273.7710503699, -630510186.232982, 4626, -20236163552005.9),
+                 [9477, 'NevIfZUdzUJrJQMwZvOS', False, True],
+                 {False, -1700220.7807578, 'pevZgAzpRcsOVKRoTWsL', 'iQfadxHjqbThjFhieudU'}]
+
+for item in not_supported:
+    try:
+        food2 = item + food1
+    except TypeError:
+        print('Некорректный тип данных')

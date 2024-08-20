@@ -1,0 +1,4 @@
+user = ProtectedObject(login='PG_kamiya', _password='alreadybanned')
+
+del user.login
+print('Успешное удаление атрибута')

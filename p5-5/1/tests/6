@@ -1,0 +1,10 @@
+food1 = FoodInfo(10, 20, 30)
+food2 = FoodInfo(10, 20, 30)
+
+not_supported = [food2, [], {}, set(), '', frozenset(), ()]
+
+for item in not_supported:
+    print(food1.__add__(item))
+    print(food1.__floordiv__(item))
+    print(food1.__mul__(item))
+    print(food1.__truediv__(item))

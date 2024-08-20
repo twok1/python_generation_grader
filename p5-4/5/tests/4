@@ -1,0 +1,10 @@
+matrix = Matrix(2, 3)
+
+print(matrix.get_value(0, 0))
+print(matrix.get_value(1, 1))
+
+matrix.set_value(0, 0, 100)
+matrix.set_value(1, 1, 200)
+
+print(matrix.get_value(0, 0))
+print(matrix.get_value(1, 1))

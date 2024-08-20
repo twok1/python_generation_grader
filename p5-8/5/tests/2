@@ -1,0 +1,6 @@
+point = NonNegativeObject(x=1.5, y=-2.3, z=0.0, color='yellow')
+
+print(point.x)
+print(point.y)
+print(point.z)
+print(point.color)

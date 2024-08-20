@@ -1,0 +1,5 @@
+calculator = Calculator()
+
+print(calculator(10, 0, '+'))
+print(calculator(10, 0, '-'))
+print(calculator(10, 0, '*'))

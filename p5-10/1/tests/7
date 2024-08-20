@@ -1,0 +1,3 @@
+coloredpoint = ColoredPoint(85, 100, 'PeachPuff')
+print(coloredpoint.__eq__(1))
+print(coloredpoint.__ne__(1.1))
