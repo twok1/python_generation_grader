@@ -42,8 +42,18 @@ def download_and_extract_zip(url, extract_to):
 
 
 if __name__ == "__main__":
-    folder, number = input(
-        "Enter task's folder path to a learning module and a number of solution's file: ").split()
+    fff = input(
+        "Enter task's folder path to a learning module and a number of solution's file: ")
+    if fff:
+        folder, number = fff.split('\\')
+    else:
+        for dirpath, _, filenames in sorted(os.walk('.')):
+            for filename in filenames:
+                if 'tests' not in dirpath:
+                    fff = dirpath.replace('.\\', '')
+        folder, number = fff.split('\\')
+        number = str(int(number) + 1)
+        print(folder, number)
     task_url = input("Enter url: ")
     tests_folder_name = create_task_structure(folder, number)
 

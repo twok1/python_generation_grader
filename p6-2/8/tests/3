@@ -1,0 +1,5 @@
+mutablestring1 = MutableString('bee')
+mutablestring2 = MutableString('geek')
+
+print(mutablestring1 + mutablestring2)
+print(mutablestring2 + mutablestring1)

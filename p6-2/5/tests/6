@@ -1,0 +1,5 @@
+orderedset = OrderedSet([1, 2, 3, 4])
+not_supported = [120, {1: 'one'}, True, 'pi = 3', 17.9]
+
+for item in not_supported:
+    print(item != orderedset)

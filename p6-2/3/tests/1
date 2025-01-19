@@ -1,0 +1,6 @@
+cyclic_list = CyclicList([1, 2, 3])
+
+for index, elem in enumerate(cyclic_list):
+    if index > 6:
+        break
+    print(elem, end=' ')

@@ -1,0 +1,6 @@
+string1 = MutableString('Разбежавшись')
+string2 = MutableString('прыгну')
+string3 = MutableString('со скалы')
+
+array = [string1, string2, string3]
+print(array)

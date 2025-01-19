@@ -1,0 +1,7 @@
+mutablestring = MutableString('Ada Wong')
+id1 = id(mutablestring)
+
+mutablestring.upper()
+id2 = id(mutablestring)
+
+print(id1 == id2)

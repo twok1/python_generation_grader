@@ -1,0 +1,6 @@
+output = open('output.txt', 'w', encoding='utf-8')
+
+with Closer(output) as file:
+    print(file.closed)
+    
+print(file.closed)

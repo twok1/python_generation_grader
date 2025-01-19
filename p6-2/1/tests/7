@@ -1,0 +1,3 @@
+reversed_list = ReversedSequence(['Gvido', 'Elon', 'Gates', 'Jobs', 'Zuckerberg'])
+
+print(*reversed(reversed_list))

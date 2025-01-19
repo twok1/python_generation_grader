@@ -1,0 +1,9 @@
+text = ''
+
+with open('empty.txt', 'w', encoding='utf-8') as file:
+    file.write(text)
+
+
+with ReadableTextFile('empty.txt') as file:
+    for line in file:
+        print(line)

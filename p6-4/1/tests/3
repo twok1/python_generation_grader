@@ -1,0 +1,3 @@
+from threading import Lock
+
+print(is_context_manager(Lock()))

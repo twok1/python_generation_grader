@@ -1,0 +1,6 @@
+permadict = PermaDict({'name': 'Timur', 'city': 'Moscow', 'age': 30})
+
+print(*permadict)
+print(*permadict.keys())
+print(*permadict.values())
+print(*permadict.items())

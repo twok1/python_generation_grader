@@ -1,0 +1,7 @@
+try:
+    with Suppress(ValueError) as context:
+        number = list(123)
+except TypeError:
+    pass
+
+print(context.exception)

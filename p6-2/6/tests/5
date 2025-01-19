@@ -1,0 +1,6 @@
+d = dict.fromkeys(range(100), None)
+attrdict = PermaDict(d)
+print(*attrdict)
+
+d[100] = None
+print(*attrdict)

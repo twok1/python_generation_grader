@@ -1,0 +1,2 @@
+array = SparseArray(None)
+print(array[0])

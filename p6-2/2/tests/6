@@ -1,0 +1,5 @@
+array = SparseArray('Тут ничего нет')
+
+array[1000] = 1000
+print(array[999])
+print(array[1000])

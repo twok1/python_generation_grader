@@ -1,0 +1,10 @@
+orderedset = OrderedSet()
+
+orderedset.add('green')
+orderedset.add('green')
+orderedset.add('blue')
+orderedset.add('red')
+print(*orderedset)
+orderedset.discard('blue')
+orderedset.discard('white')
+print(*orderedset)

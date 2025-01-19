@@ -1,0 +1,6 @@
+numbers = [1, 2, 3, 4, 5]
+reversed_numbers = ReversedSequence(numbers)
+
+print(reversed_numbers[0])
+numbers.append(6)
+print(reversed_numbers[0])

@@ -1,0 +1,4 @@
+with Suppress(NameError):
+    print('Этой переменной не существует -->', variable)
+    
+print('Завершение программы')

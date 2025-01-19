@@ -1,0 +1,17 @@
+historydict = HistoryDict({'name': 'Irenica', 'country': 'Russia', 'level': 'junior', })
+
+print(historydict.all_history())
+
+historydict['country'] = 'Italy'
+historydict['level'] = 'middle'
+historydict['level'] = 'senior'
+
+print(historydict.all_history())
+
+del historydict['level']
+
+print(historydict.all_history())
+
+historydict['level'] = 'God'
+
+print(historydict.all_history())

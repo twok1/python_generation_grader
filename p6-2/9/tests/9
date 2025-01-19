@@ -1,0 +1,6 @@
+d = range(1, 100)
+grouper = Grouper(d, bool)
+print(*grouper)
+
+grouper.add(100)
+print(*grouper)

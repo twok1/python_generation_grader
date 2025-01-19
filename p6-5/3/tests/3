@@ -1,0 +1,6 @@
+from zipfile import ZipFile
+
+zip_file = ZipFile('test.zip', 'w')
+
+with Closer(zip_file) as zf:
+    print(zf)

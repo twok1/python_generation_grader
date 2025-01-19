@@ -1,0 +1,5 @@
+mutablestring = MutableString('beegeek')
+
+print(*mutablestring)
+print(str(mutablestring))
+print(repr(mutablestring))

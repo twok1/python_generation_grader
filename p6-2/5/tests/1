@@ -1,0 +1,4 @@
+orderedset = OrderedSet(['bee', 'python', 'stepik', 'bee', 'geek', 'python', 'bee'])
+
+print(*orderedset)
+print(len(orderedset))

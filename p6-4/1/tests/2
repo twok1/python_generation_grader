@@ -1,0 +1,4 @@
+from tempfile import TemporaryFile
+
+with TemporaryFile(mode='r+') as file:
+    print(is_context_manager(file))

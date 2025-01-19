@@ -1,0 +1,4 @@
+with Suppress() as context:
+    print('All success!')
+
+print(context.exception)

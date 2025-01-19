@@ -1,0 +1,6 @@
+class ContextManager:
+    def __enter__(self):
+        return 'beegeek'
+
+
+print(is_context_manager(ContextManager()))

@@ -1,0 +1,15 @@
+grouper = Grouper(['hi'], key=lambda s: s[0])
+print(len(grouper))
+
+grouper.add('hello')
+grouper.add('bee')
+grouper.add('big')
+
+print(len(grouper))
+
+grouper.add('geek')
+print(grouper['h'])
+print(grouper['b'])
+print(grouper['g'])
+
+print(len(grouper))

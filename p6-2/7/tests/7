@@ -1,0 +1,7 @@
+historydict = HistoryDict()
+print('Keys:', *historydict.keys())
+print('Values:', *historydict.values())
+print('Items:', *historydict.items())
+print('History(key=1):', historydict.history(1))
+print('History(key=1):', historydict.history(1))
+print('All history:', historydict.all_history())

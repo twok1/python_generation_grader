@@ -1,0 +1,4 @@
+grouper = Grouper(['bee', 'geek', 'one', 'two', 'five', 'hi'], key=len)
+
+print(3 in grouper)
+print('bee' in grouper)

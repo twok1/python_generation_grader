@@ -1,0 +1,4 @@
+reversed_chars = ReversedSequence('abcde')
+
+for char in reversed_chars:
+    print(char)

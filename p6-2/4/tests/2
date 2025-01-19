@@ -1,0 +1,5 @@
+sequencezip = SequenceZip('ABC', ['bee', 'geek', 'python'], [1, 2, 3])
+
+print(len(sequencezip))
+print(sequencezip[1])
+print(sequencezip[2])

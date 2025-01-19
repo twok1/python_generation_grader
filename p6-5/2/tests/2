@@ -1,0 +1,2 @@
+with Greeter('Кейв') as greeter:
+    print(greeter.name)

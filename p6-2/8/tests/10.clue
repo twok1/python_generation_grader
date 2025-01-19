@@ -1,0 +1,1 @@
+[MutableString('Разбежавшись'), MutableString('прыгну'), MutableString('со скалы')]

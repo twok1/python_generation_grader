@@ -1,0 +1,5 @@
+with Greeter('Gvido') as greeter:
+    try:
+        print(greeter.age)
+    except AttributeError as e:
+        print(f'Атрибут "{e.name}" отсутствует')

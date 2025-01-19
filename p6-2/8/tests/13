@@ -1,0 +1,7 @@
+mutablestring = MutableString('beegeek')
+
+mutablestring[-1] = 'ee'
+print(mutablestring)
+
+mutablestring[-2:] = 'geek'
+print(mutablestring)

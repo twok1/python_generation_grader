@@ -1,0 +1,1 @@
+print(is_context_manager(open('output.txt', mode='w')))

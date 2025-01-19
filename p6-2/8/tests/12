@@ -1,0 +1,5 @@
+mutablestring = MutableString('beegeek')
+
+del mutablestring[2:5]
+del mutablestring[1:5:2]
+print(mutablestring)

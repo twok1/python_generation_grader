@@ -1,0 +1,6 @@
+grouper = Grouper(['hi'], key=lambda s: s[0])
+
+print(grouper.group_for('hello'))
+print(grouper.group_for('bee'))
+print(grouper['h'])
+print('b' in grouper)

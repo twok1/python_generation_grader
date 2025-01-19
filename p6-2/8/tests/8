@@ -1,0 +1,5 @@
+string = '''Sometimes it's better to stay home on Monday than to spend the whole week debugging code written on Monday.
+Christopher Thompson'''
+mutablestring = MutableString(string)
+
+print(mutablestring[30], mutablestring[3], mutablestring[66], mutablestring[66], mutablestring[1], sep='')

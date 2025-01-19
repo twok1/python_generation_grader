@@ -1,0 +1,7 @@
+print('start')
+
+with SuppressAll():
+    print(2077 / 0)
+    print('Python generation!')
+
+print('end')

@@ -1,0 +1,7 @@
+cyclic_list = CyclicList([1, 2, 3])
+
+cyclic_list.append(4)
+print(cyclic_list.pop())
+print(len(cyclic_list))
+print(cyclic_list.pop(0))
+print(len(cyclic_list))

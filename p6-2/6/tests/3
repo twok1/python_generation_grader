@@ -1,0 +1,7 @@
+permadict = PermaDict()
+
+permadict['name'] = 'Timur'
+permadict['age'] = 30
+del permadict['name']
+print(permadict['age'])
+print(len(permadict))

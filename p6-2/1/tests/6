@@ -1,0 +1,3 @@
+reversed_chars = ReversedSequence('abcdefghijklmnopqrstuvwxyz')
+
+print(reversed_chars[0], reversed_chars[7], reversed_chars[11], reversed_chars[25])

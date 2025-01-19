@@ -1,0 +1,2 @@
+with UpperPrint():
+    print('Bee', 'Geek', 'Love', sep=' one ', end=' end')

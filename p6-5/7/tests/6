@@ -1,0 +1,7 @@
+d = {'Gvido': 67, 'Gates': 67, 'Zuckerberg': 38}
+with Suppress(KeyError) as context:
+    print(d['Mask'])
+
+
+print(context.exception)
+print(type(context.exception))

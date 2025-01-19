@@ -1,0 +1,7 @@
+with Suppress(ValueError) as context:
+    try:
+        print('Несуществующий метод у словаря –>', {}.new())
+    except AttributeError as e:
+        print(type(e))
+
+print(context.exception)

@@ -1,0 +1,4 @@
+permadict = PermaDict({'name': 'Timur', 'city': 'Moscow'})
+
+print(permadict['name'])
+print(len(permadict))

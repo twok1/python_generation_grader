@@ -1,0 +1,6 @@
+array = SparseArray(None)
+
+for i in range(10000):
+    array[i] = 'beegeek'
+
+print(array[0] == array[9999])

@@ -111,6 +111,12 @@ if __name__ == "__main__":
     script_file = input(
         "Enter py-file's path from the content root: "
     )
+    if not script_file:
+        for dirpath, _, filenames in sorted(os.walk('.')):
+            for filename in filenames:
+                if 'tests' not in dirpath:
+                    script_file = dirpath.replace('.\\', '')
+    print(script_file)
     script_file += '\\' + os.path.split(script_file)[-1] + '.py'
     module_folder, tested_file = os.path.split(script_file)
     # module_folder = script_file

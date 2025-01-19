@@ -1,0 +1,6 @@
+cyclic_list = CyclicList([1, 2, 3])
+
+print(cyclic_list[1])
+print(cyclic_list[2])
+print(cyclic_list[5])
+print(cyclic_list[12])

@@ -1,0 +1,5 @@
+with Suppress(TypeError, ValueError) as context:
+    number = int('я число')
+
+print(context.exception)
+print(type(context.exception))

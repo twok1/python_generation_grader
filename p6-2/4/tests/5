@@ -1,0 +1,3 @@
+many_large_sequences = [range(100000) for _ in range(100)]
+sequencezip = SequenceZip(*many_large_sequences)
+print(sequencezip[99999])

@@ -1,0 +1,4 @@
+permadict = PermaDict()
+print('Keys:', *permadict.keys())
+print('Values:', *permadict.values())
+print('Items:', *permadict.items())

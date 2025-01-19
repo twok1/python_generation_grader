@@ -1,0 +1,4 @@
+data = ['Ada Lovelace'] * 1000
+orderedset = OrderedSet(data)
+
+print(len(orderedset))

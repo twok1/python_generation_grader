@@ -1,0 +1,3 @@
+sequencezip = SequenceZip()
+print(len(sequencezip))
+print(list(sequencezip))

@@ -1,0 +1,5 @@
+historydict = HistoryDict({'ducks': 99, 'cats': 1})
+
+print(historydict['ducks'])
+print(historydict['cats'])
+print(len(historydict))

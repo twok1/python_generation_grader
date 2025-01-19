@@ -1,0 +1,10 @@
+with open('file.txt', 'w') as file:
+    pass
+    
+file = open('file.txt')
+print(file.closed)
+
+with Reloopable(file) as reloopable:
+    pass
+
+print(file.closed)

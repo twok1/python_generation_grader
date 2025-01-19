@@ -1,0 +1,5 @@
+print(OrderedSet(['green', 'red', 'blue']) == OrderedSet(['green', 'red', 'blue']))
+print(OrderedSet(['green', 'red', 'blue']) == OrderedSet(['red', 'blue', 'green']))
+print(OrderedSet(['green', 'red', 'blue']) == {'blue', 'red', 'green'})
+print(OrderedSet(['green', 'red', 'blue']) == ['green', 'red', 'blue'])
+print(OrderedSet(['green', 'red', 'blue']) == 100)

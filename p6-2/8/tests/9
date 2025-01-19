@@ -1,0 +1,10 @@
+string = '''Many of you are familiar with the virtues of being a programmer. There are only three of them, 
+and of course this is: laziness, impatience and pride. Larry Wall'''
+mutablestring = MutableString(string)
+
+print(mutablestring[20])
+print(mutablestring[-30])
+print(mutablestring[:11])
+print(mutablestring[16:])
+print(mutablestring[4::10])
+print(mutablestring[::-10])

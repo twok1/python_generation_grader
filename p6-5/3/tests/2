@@ -1,0 +1,4 @@
+with Closer(5) as i:
+    i += 1
+    
+print(i)

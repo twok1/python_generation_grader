@@ -1,0 +1,4 @@
+mutablestring = MutableString('beegeek')
+
+del mutablestring[1:3]
+print(mutablestring)

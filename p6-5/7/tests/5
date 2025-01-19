@@ -1,0 +1,11 @@
+iterable = iter(range(100))
+
+with Suppress(StopIteration) as context:
+    for _ in range(99):
+        next(iterable)
+    print(next(iterable))
+    print(next(iterable))
+
+
+print(context.exception)
+print(type(context.exception))
