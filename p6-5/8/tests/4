@@ -1,0 +1,7 @@
+f1 = open('file1.txt', mode='w')
+f2 = open('file2.txt', mode='w')
+
+with WriteSpy(f1, f2, to_close=False) as combined:
+    print(f1.closed, f2.closed)
+    combined.close()
+    print(f1.closed, f2.closed)

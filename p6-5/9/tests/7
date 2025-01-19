@@ -1,0 +1,6 @@
+data = {'a': 100, 'z': 333, 'b': 200, 'c': 300, 'd': 45, 'e': 98, 't': 76, 'q': 34, 'f': 90, 'm': 230}
+
+with Atomic(data) as atomic:
+    atomic['e'] += 2   # изменение структуры
+
+print(data)

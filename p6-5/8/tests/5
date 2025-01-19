@@ -1,0 +1,8 @@
+f1 = open('file1.txt', mode='r')
+f2 = open('file2.txt', mode='w')
+
+try:
+    with WriteSpy(f1, f2, to_close=True) as combined:
+        combined.write('No cost too great')
+except ValueError as error:
+    print(error)

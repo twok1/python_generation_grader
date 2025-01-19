@@ -1,0 +1,8 @@
+matrix = [[1, 2], [3, 4]]
+
+with Atomic(matrix, True) as atomic:
+    atomic[1].append(0)       # изменение вложенной структуры
+    atomic.append([5, 6])
+    del atomic[100]           # обращение по несуществующему индексу
+
+print(matrix)

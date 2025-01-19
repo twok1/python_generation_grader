@@ -1,0 +1,13 @@
+data = {'firstname': 'Alyson', 'lastname': 'Hannigan', 'birthday': {'day': 24, 'month': 'March', 'year': 1974}}
+
+with Atomic(data, True) as atomic:          # deep = True
+    atomic['birthday']['month'] = 'April'   # изменение вложенной структуры
+    print(atomic['name'])                   # обращение по несуществующему ключу
+
+print(data)
+
+with Atomic(data) as atomic:                # deep = False
+    atomic['birthday']['month'] = 'April'   # изменение вложенной структуры
+    print(atomic['name'])                   # обращение по несуществующему ключу
+
+print(data)

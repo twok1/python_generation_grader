@@ -1,0 +1,12 @@
+numbers = {1, 2, 3, 4, 5}
+
+with Atomic(numbers) as atomic:
+    atomic.add(6)
+    atomic.append(7)           # добавление элемента с помощью несуществующего метода
+
+print(sorted(numbers))
+
+with Atomic(numbers) as atomic:
+    atomic.add(6)
+
+print(sorted(numbers))
