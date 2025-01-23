@@ -1,0 +1,5 @@
+with HtmlTag('div') as _:
+    with HtmlTag('p') as paragraph:
+        with HtmlTag('strong', True) as strong:
+            strong.print('Notice:')
+        paragraph.print('Your browser is ancient')

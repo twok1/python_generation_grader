@@ -1,0 +1,6 @@
+timer = AdvancedTimer()
+
+print(timer.runs)
+print(timer.last_run)
+print(timer.min)
+print(timer.max)

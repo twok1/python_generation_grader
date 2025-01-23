@@ -1,0 +1,16 @@
+with HtmlTag('table') as _:
+    with HtmlTag('tr') as paragraph:
+        with HtmlTag('th', True) as field:
+            field.print('текст заголовка')
+        with HtmlTag('td') as data:
+            with HtmlTag('ul'):
+                with HtmlTag('li', True) as marked_list:
+                    marked_list.print('данные')
+                with HtmlTag('li', True) as marked_list:
+                    marked_list.print('данные')
+                with HtmlTag('li', True) as marked_list:
+                    marked_list.print('данные')
+                with HtmlTag('li', True) as marked_list:
+                    marked_list.print('данные')
+                with HtmlTag('li', True) as marked_list:
+                    marked_list.print('данные')

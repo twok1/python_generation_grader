@@ -1,0 +1,11 @@
+tree = TreeBuilder()
+
+with tree:
+    tree.add(1)
+    with tree:
+        tree.add(2)
+        tree.add(3)
+    with tree:
+        pass
+
+print(tree.structure())

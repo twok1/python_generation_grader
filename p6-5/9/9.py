@@ -14,15 +14,11 @@ class Atomic:
     
     def __exit__(self, exc_type, exc_value, traceback):
         if exc_type:
-            self.data = self.start_data
-            return False
+            if isinstance(self.data, list):
+                self.data[:] = self.start_data[:]
+            if isinstance(self.data, dict|set):
+                self.data.clear()
+                self.data.update(self.start_data)
+            return True
+
         return True
-
-numbers = [1, 2, 3, 4, 5]
-
-with Atomic(numbers) as atomic:
-    atomic.append(6)
-    atomic[2] = 0
-    del atomic[100]           # обращение по несуществующему индексу
-
-print(numbers)

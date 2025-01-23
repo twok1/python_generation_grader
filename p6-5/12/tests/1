@@ -1,0 +1,15 @@
+tree = TreeBuilder()
+print(tree.structure())
+
+tree.add('1st')
+print(tree.structure())
+
+with tree:
+    tree.add('2nd')
+    with tree:
+        tree.add('3rd')
+    tree.add('4th')
+    with tree:
+        pass
+        
+print(tree.structure())

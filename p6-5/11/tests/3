@@ -1,0 +1,5 @@
+with HtmlTag('body') as _:
+    with HtmlTag('h1', True) as header:
+        header.print('Здесь есть что-то интересное')
+    with HtmlTag('a', True) as section:
+        section.print('https://stepik.org/media/attachments/course/98974/watch_me.mp4')
