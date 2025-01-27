@@ -1,0 +1,7 @@
+with open('file.txt', 'w') as file:
+    file.write('Как говорится, земля круглая, за углом встретимся.')
+
+with safe_open('file.txt', 'rb') as file:
+    f, error = file
+    print(f)
+    print(error)

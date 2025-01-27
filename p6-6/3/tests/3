@@ -1,0 +1,11 @@
+with safe_write('poem.txt') as file:
+    print('''Я кашлянул в звенящей тишине,
+И от шального эха стало жутко…,
+Расскажет ли утятам обо мне,
+под утро мной испуганная утка?''', file=file)
+
+with safe_write('poem.txt') as file:
+    file.insert('Стихотворение про утку')       # неверный метод для записи в файл
+
+with open('poem.txt') as file:
+    print(file.read())

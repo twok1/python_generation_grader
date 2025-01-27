@@ -1,0 +1,2 @@
+with make_tag('---'):
+    print('Поколение Python')

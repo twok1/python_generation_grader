@@ -1,0 +1,4 @@
+with safe_open('Ellies_jokes_2.txt') as file:
+    file, error = file
+    print(file)
+    print(error)

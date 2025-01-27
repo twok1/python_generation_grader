@@ -1,0 +1,5 @@
+with reversed_print():
+    print('python')
+    print('beegeek')
+
+print('Вывод вне блока with')

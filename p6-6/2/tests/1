@@ -1,0 +1,6 @@
+print('Вывод вне блока with')
+
+with reversed_print():
+    print('Вывод внутри блока with')
+
+print('Вывод вне блока with')

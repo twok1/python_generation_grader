@@ -1,0 +1,5 @@
+with safe_write('undertale.txt') as file:
+    file.write('Тень от руин нависает над вами, наполняя вас решительностью')
+    
+with open('undertale.txt') as file:
+    print(file.read())
