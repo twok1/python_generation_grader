@@ -1,0 +1,10 @@
+class MagicPoint:
+    x = RandomNumber(1, 5)
+    y = RandomNumber(1, 5)
+    z = RandomNumber(1, 5)
+
+magicpoint = MagicPoint()
+
+print(magicpoint.x in [6, 7, 8, 9, 10])
+print(magicpoint.y in [6, 7, 8, 9, 10])
+print(magicpoint.z in [6, 7, 8, 9, 10])

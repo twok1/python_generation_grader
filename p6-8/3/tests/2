@@ -1,0 +1,9 @@
+class Student:
+    name = LimitedTakes(3)
+
+student = Student()
+
+for _ in range(100):
+    student.name = 'Gwen'
+    
+print(student.name)

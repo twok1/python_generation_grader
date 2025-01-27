@@ -1,0 +1,10 @@
+class Student:
+    age = TypeChecked(int, float)
+
+student = Student()
+
+student.age = 18
+print(student.age)
+
+student.age = 18.5
+print(student.age)

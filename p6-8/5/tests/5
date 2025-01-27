@@ -1,0 +1,10 @@
+class MagicPoint:
+    x = RandomNumber(20, 100, True)
+
+
+magicpoint = MagicPoint()
+
+value = magicpoint.x
+
+for _ in range(20):
+    print(magicpoint.x == value)

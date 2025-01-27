@@ -1,0 +1,10 @@
+class Programmer:
+    name = LimitedTakes(1)
+
+
+programmer = Programmer()
+
+try:
+    print(programmer.name)
+except AttributeError as e:
+    print(e)

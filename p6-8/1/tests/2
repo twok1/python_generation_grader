@@ -1,0 +1,9 @@
+class Student:
+    name = NonKeyword('name')
+
+student = Student()
+
+try:
+    print(student.name)
+except AttributeError as e:
+    print(e)

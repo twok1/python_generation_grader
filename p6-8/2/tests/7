@@ -1,0 +1,4 @@
+class Student:
+    score = NonNegativeInteger('score')
+
+print(Student.score.__class__)

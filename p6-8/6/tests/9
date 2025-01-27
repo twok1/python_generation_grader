@@ -1,0 +1,4 @@
+class Student:
+    age = Versioned()
+
+print(Student.age.__class__)

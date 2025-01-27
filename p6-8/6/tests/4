@@ -1,0 +1,9 @@
+class Student:
+    name = Versioned()
+
+student = Student()
+
+try:
+    print(student.name)
+except AttributeError as e:
+    print(e)

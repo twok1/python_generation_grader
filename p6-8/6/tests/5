@@ -1,0 +1,12 @@
+class Person:
+    age = Versioned()
+
+
+person = Person()
+
+person.age = 0
+for _ in range(50):
+    person.age += 1
+
+for i in range(51):
+    print(Person.age.get_version(person, i + 1))

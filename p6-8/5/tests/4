@@ -1,0 +1,11 @@
+class MagicPoint:
+    x = RandomNumber(0, 5)
+    y = RandomNumber(0, 5)
+    z = RandomNumber(0, 5)
+
+magicpoint = MagicPoint()
+
+try:
+    magicpoint.x = 10
+except AttributeError as e:
+    print(e)

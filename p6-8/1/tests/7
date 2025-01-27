@@ -1,0 +1,4 @@
+class Student:
+    name = NonKeyword('name')
+
+print(Student.name.__class__)

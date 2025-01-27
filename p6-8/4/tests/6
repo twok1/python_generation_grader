@@ -1,0 +1,4 @@
+class Student:
+    name = TypeChecked(str)
+
+print(Student.name.__class__)

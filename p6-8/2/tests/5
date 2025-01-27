@@ -1,0 +1,10 @@
+class Student:
+    score = NonNegativeInteger('score')
+
+student = Student()
+student.score = 90
+
+try:
+    student.score = -90
+except ValueError as e:
+    print(e)

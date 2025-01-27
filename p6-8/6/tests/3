@@ -1,0 +1,12 @@
+class Student:
+    age = Versioned()
+    
+student = Student()
+
+student.age = 18
+student.age = 19
+student.age = 20
+
+print(student.age)
+Student.age.set_version(student, 1)
+print(student.age)

@@ -1,0 +1,7 @@
+class Student:
+    name = TypeChecked(str)
+
+student = Student()
+student.name = 'Mary'
+
+print(student.name)

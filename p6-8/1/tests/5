@@ -1,0 +1,12 @@
+from keyword import kwlist
+
+class Student:
+    name = NonKeyword('name')
+
+student = Student()
+
+for kw in kwlist:
+    try:
+        student.name = kw
+    except ValueError as e:
+        print(e)

@@ -1,0 +1,7 @@
+class Student:
+    name = NonKeyword('name')
+
+student = Student()
+student.name = 'Peter'
+
+print(student.name)

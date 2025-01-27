@@ -1,0 +1,14 @@
+class Student:
+    name = LimitedTakes(3)
+
+student = Student()
+student.name = 'Gwen'
+
+print(student.name)
+print(student.name)
+print(student.name)
+
+try:
+    print(student.name)
+except MaxCallsException as e:
+    print(e)

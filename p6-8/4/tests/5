@@ -1,0 +1,19 @@
+class Vector:
+    x = TypeChecked(float)
+    y = TypeChecked(float)
+
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+
+    def __str__(self):
+        return f'{self.x} {self.y}'
+
+pairs = [('12', '89'), ([1, 2], [3, 4]), ({1: 2}, {3: 4}), (True, False), (1.2, 3.4)]
+
+for x, y in pairs:
+    try:
+        vector = Vector(x, y)
+        print(vector)
+    except TypeError as e:
+        print(e)

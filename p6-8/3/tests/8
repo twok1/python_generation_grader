@@ -1,0 +1,10 @@
+class Student:
+    name = LimitedTakes(3)
+
+student = Student()
+student.name = 'Gwen'
+
+print(student.name)
+print(student.name)
+student.name = 'Mary'
+print(student.name)

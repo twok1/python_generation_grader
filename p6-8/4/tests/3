@@ -1,0 +1,12 @@
+class Student:
+    name = TypeChecked(str)
+
+student = Student()
+student.name = 'Mary'
+
+try:
+    student.name = 99
+except TypeError as e:
+    print(e)
+
+print(student.name)

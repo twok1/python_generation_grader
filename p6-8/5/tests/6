@@ -1,0 +1,7 @@
+class MagicPoint:
+    x = RandomNumber(-1000, 1000)
+
+magicpoint = MagicPoint()
+
+for _ in range(50):
+    print(magicpoint.x in range(-1000, 1001))

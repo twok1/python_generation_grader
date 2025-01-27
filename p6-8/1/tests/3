@@ -1,0 +1,10 @@
+class Student:
+    name = NonKeyword('name')
+
+student = Student()
+student.name = 'Peter'
+
+try:
+    student.name = 'class'
+except ValueError as e:
+    print(e)

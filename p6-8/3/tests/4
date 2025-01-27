@@ -1,0 +1,14 @@
+class Programmer:
+    name = LimitedTakes(1000)
+
+
+programmer = Programmer()
+programmer.name = 'Gvido'
+
+for _ in range(1000):
+    programmer.name
+
+try:
+    print(programmer.name)
+except MaxCallsException as e:
+    print(e)

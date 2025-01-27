@@ -1,0 +1,11 @@
+class MagicPoint:
+    x = RandomNumber(-1000, 1000)
+
+    def __init__(self, x):
+        self.x = x
+
+
+try:
+    magicpoint = MagicPoint(150)
+except AttributeError as e:
+    print(e)

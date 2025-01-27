@@ -1,0 +1,29 @@
+class Student:
+    name = LimitedTakes(3)
+
+
+class Programmer:
+    name = LimitedTakes(1)
+
+
+student = Student()
+programmer = Programmer()
+
+student.name = 'Gwen'
+programmer.name = 'Mantrida'
+
+for _ in range(3):
+    print(student.name)
+
+try:
+    print(student.name)
+except MaxCallsException as e:
+    print(e)
+
+
+print(programmer.name)
+
+try:
+    print(programmer.name)
+except MaxCallsException as e:
+    print(e)
