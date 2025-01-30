@@ -1,0 +1,16 @@
+digits = [46, 158, 79, 100, 161, 100, 30, 27, 132, 79, 152, 114, 97, 171, 71, 35, 186, 157, 149, 144, 156, 41, 172, 122,
+          131, 141, 69, 113, 86, 46, 104, 147, 42, 60, 31, 32, 190, 107, 110, 103, 77, 135, 35, 33, 104, 191, 94, 55,
+          50, 156]
+
+counter = LimitedCounter(start=10, limit=2000)
+
+pos = True
+
+for digit in digits:
+    if pos:
+        counter.inc(digit)
+    else:
+        counter.dec(digit)
+    pos = not pos
+
+print(counter.value)

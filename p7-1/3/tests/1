@@ -1,0 +1,4 @@
+print(issubclass(Fish, Animal))
+print(issubclass(Bird, Animal))
+print(issubclass(FlyingBird, Animal))
+print(issubclass(FlyingBird, Bird))

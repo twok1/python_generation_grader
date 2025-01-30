@@ -1,0 +1,5 @@
+print(issubclass(Propeller, LandVehicle))
+print(issubclass(Jet, LandVehicle))
+
+print(issubclass(Propeller, WaterVehicle))
+print(issubclass(Jet, WaterVehicle))

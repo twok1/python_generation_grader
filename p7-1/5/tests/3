@@ -1,0 +1,7 @@
+validator1 = NumberValidator('beegeek')
+validator2 = NumberValidator(1)
+validator3 = NumberValidator(1.1)
+
+print(validator1.is_valid())
+print(validator2.is_valid())
+print(validator3.is_valid())

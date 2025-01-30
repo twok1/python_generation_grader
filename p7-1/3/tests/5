@@ -1,0 +1,5 @@
+flying_bird = FlyingBird()
+print(flying_bird.sleep())
+print(flying_bird.eat())
+print(flying_bird.lay_eggs())
+print(flying_bird.fly())

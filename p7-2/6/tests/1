@@ -1,0 +1,12 @@
+class Point(FieldTracker):
+    fields = ('x', 'y', 'z')
+
+    def __init__(self, x, y, z):
+        self.x, self.y, self.z = x, y, z
+        super().__init__()
+
+point = Point(1, 2, 3)
+
+print(point.base('x'))
+print(point.has_changed('x'))
+print(point.changed())

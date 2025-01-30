@@ -1,0 +1,3 @@
+print(issubclass(LandVehicle, Vehicle))
+print(issubclass(WaterVehicle, Vehicle))
+print(issubclass(AirVehicle, Vehicle))

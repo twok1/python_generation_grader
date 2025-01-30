@@ -1,0 +1,4 @@
+print(issubclass(Square, Shape))
+print(issubclass(IsoscelesTriangle, Shape))
+print(issubclass(EquilateralTriangle, Shape))
+print(issubclass(Circle, Shape))

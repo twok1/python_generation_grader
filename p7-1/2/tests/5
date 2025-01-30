@@ -1,0 +1,6 @@
+print(issubclass(IsoscelesTriangle, Circle))
+print(issubclass(EquilateralTriangle, Circle))
+
+print(issubclass(Parallelogram, Circle))
+print(issubclass(Rectangle, Circle))
+print(issubclass(Square, Circle))

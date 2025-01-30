@@ -1,0 +1,5 @@
+user = User('Arthur')
+premium_user = PremiumUser('Arthur')
+
+print(user.skip_ads())
+print(premium_user.skip_ads())

@@ -1,0 +1,7 @@
+print(GoldPlan.can_stream)
+print(GoldPlan.can_download)
+print(GoldPlan.has_SD)
+print(GoldPlan.has_HD)
+print(GoldPlan.has_UHD)
+print(GoldPlan.num_of_devices)
+print(GoldPlan.price)

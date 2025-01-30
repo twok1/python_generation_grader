@@ -1,0 +1,5 @@
+weatherwarning = WeatherWarning()
+
+weatherwarning.rain()
+weatherwarning.snow()
+weatherwarning.low_temperature()

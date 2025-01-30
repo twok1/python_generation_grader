@@ -1,0 +1,4 @@
+bird = Bird()
+print(bird.sleep())
+print(bird.eat())
+print(bird.lay_eggs())

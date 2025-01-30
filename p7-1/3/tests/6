@@ -1,0 +1,5 @@
+animal = Animal()
+
+methods = ['swim', 'lay_eggs', 'fly']
+for method in methods:
+    print(hasattr(animal, method))

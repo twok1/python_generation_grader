@@ -1,0 +1,8 @@
+from datetime import date
+
+weatherwarning = WeatherWarningWithDate()
+dt = date(2022, 12, 12)
+
+weatherwarning.rain(dt)
+weatherwarning.snow(dt)
+weatherwarning.low_temperature(dt)

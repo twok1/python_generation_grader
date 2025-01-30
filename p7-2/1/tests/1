@@ -1,0 +1,7 @@
+print(BasicPlan.can_stream)
+print(BasicPlan.can_download)
+print(BasicPlan.has_SD)
+print(BasicPlan.has_HD)
+print(BasicPlan.has_UHD)
+print(BasicPlan.num_of_devices)
+print(BasicPlan.price)

@@ -1,0 +1,5 @@
+triangle1 = Triangle(3, 4, 5)
+triangle2 = EquilateralTriangle(3)
+
+print(triangle1.perimeter())
+print(triangle2.perimeter())

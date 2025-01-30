@@ -1,0 +1,11 @@
+counter = Counter()
+
+print(counter.value)
+counter.inc()
+counter.inc(5)
+print(counter.value)
+counter.dec()
+counter.dec(3)
+print(counter.value)
+counter.dec(10)
+print(counter.value)

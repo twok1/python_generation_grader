@@ -1,0 +1,16 @@
+digits = [55, 40, 110, 183, 78, 181, 172, 158, 146, 35, 60, 180, 102, 170, 62, 46, 181, 68, 103, 124, 130, 127, 161,
+          107, 199, 100, 74, 120, 132, 65, 167, 28, 45, 158, 53, 122, 86, 29, 199, 129, 97, 71, 113, 54, 134, 45, 76,
+          157, 25, 60]
+
+counter = Counter(10)
+
+pos = True
+
+for digit in digits:
+    if pos:
+        counter.inc(digit)
+    else:
+        counter.dec(digit)
+    pos = not pos
+
+print(counter.value)

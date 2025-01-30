@@ -1,0 +1,26 @@
+class Point(FieldTracker):
+    fields = ('x', 'y', 'z')
+
+    def __init__(self, x, y, z):
+        self.x, self.y, self.z = x, y, z
+        super().__init__()
+
+
+p = Point(1, 2, 3)
+print(p.base('x'))
+p.x = 4
+print(p.base('x'))
+print(p.x)
+p.z = 6
+print(p.base('x'))
+print(p.base('y'))
+print(p.base('z'))
+p.save()
+print(p.base('x'))
+print(p.base('y'))
+print(p.base('z'))
+p.y = 8
+print(p.base('y'))
+print(p.y)
+p.save()
+print(p.base('y'))

@@ -1,0 +1,3 @@
+print(issubclass(Parallelogram, Quadrilateral))
+print(issubclass(Rectangle, Quadrilateral))
+print(issubclass(Square, Quadrilateral))

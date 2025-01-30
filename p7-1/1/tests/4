@@ -1,0 +1,5 @@
+print(issubclass(Car, Vehicle))
+print(issubclass(Motorcycle, Vehicle))
+print(issubclass(Bicycle, Vehicle))
+print(issubclass(Propeller, AirVehicle))
+print(issubclass(Jet, AirVehicle))

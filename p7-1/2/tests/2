@@ -1,0 +1,3 @@
+print(issubclass(Triangle, Polygon))
+print(issubclass(IsoscelesTriangle, Triangle))
+print(issubclass(EquilateralTriangle, Triangle))

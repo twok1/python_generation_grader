@@ -1,0 +1,11 @@
+counter = LimitedCounter(start=5, limit=30)
+
+print(counter.value)
+counter.inc()
+counter.inc(4)
+print(counter.value)
+counter.dec()
+counter.dec(2)
+print(counter.value)
+counter.inc(24)
+print(counter.value)

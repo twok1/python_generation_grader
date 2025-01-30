@@ -1,0 +1,4 @@
+animal = Animal()
+
+print(animal.sleep())
+print(animal.eat())

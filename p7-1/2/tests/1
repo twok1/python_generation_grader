@@ -1,0 +1,2 @@
+print(issubclass(Circle, Shape))
+print(issubclass(Polygon, Shape))

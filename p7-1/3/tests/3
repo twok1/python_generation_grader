@@ -1,0 +1,5 @@
+fish = Fish()
+
+print(fish.sleep())
+print(fish.eat())
+print(fish.swim())

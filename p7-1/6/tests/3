@@ -1,0 +1,11 @@
+counter = NonDecCounter(10)
+
+print(counter.value)
+counter.inc()
+counter.inc(10)
+print(counter.value)
+counter.dec()
+counter.dec(10)
+print(counter.value)
+counter.dec(50)
+print(counter.value)

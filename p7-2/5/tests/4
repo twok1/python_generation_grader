@@ -1,0 +1,6 @@
+summator1 = Summator()
+summator2 = SquareSummator()
+summator3 = QubeSummator()
+
+for i in range(5, 50):
+    print(summator1.total(i), summator2.total(i), summator3.total(i))

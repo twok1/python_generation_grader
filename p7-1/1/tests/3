@@ -1,0 +1,2 @@
+print(issubclass(Propeller, AirVehicle))
+print(issubclass(Jet, AirVehicle))

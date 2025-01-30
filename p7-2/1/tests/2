@@ -1,0 +1,7 @@
+print(SilverPlan.can_stream)
+print(SilverPlan.can_download)
+print(SilverPlan.has_SD)
+print(SilverPlan.has_HD)
+print(SilverPlan.has_UHD)
+print(SilverPlan.num_of_devices)
+print(SilverPlan.price)
