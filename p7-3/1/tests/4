@@ -1,0 +1,6 @@
+s1 = UpperPrintString('BEEgeek')
+s2 = UpperPrintString('BeeGeek')
+
+print(s1)
+print(s2)
+print(s1 == s2)

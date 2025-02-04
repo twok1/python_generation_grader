@@ -1,0 +1,5 @@
+superint = SuperInt(50)
+
+for i in range(0, 50, 3):
+    superint = superint.next()
+    print(*superint)

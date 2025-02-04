@@ -1,0 +1,5 @@
+superint1 = SuperInt(17)
+superint2 = SuperInt(-17)
+
+print(superint1.repeat())
+print(superint2.repeat(3))

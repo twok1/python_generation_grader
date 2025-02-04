@@ -1,0 +1,9 @@
+s1 = FuzzyString('ManTrida')
+s2 = FuzzyString('MANTRIDA')
+
+print(s1 == s2)
+print(s1 != s2)
+print(s1 >= s2)
+print(s1 <= s2)
+print(s1 > s2)
+print(s1 < s2)

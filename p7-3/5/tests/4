@@ -1,0 +1,5 @@
+superint1 = SuperInt(1337)
+superint2 = SuperInt(-2077)
+
+print(*superint1)
+print(*superint2)

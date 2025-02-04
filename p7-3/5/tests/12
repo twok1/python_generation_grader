@@ -1,0 +1,5 @@
+superint = SuperInt(100)
+print(type(superint))
+print(type(superint.next()))
+print(type(superint.prev()))
+print(type(superint.repeat()))

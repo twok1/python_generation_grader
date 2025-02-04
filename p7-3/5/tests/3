@@ -1,0 +1,4 @@
+superint = SuperInt(17)
+
+print(superint.prev())
+print(superint.next())

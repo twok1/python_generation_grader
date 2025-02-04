@@ -1,0 +1,6 @@
+s = FuzzyString('BeeGeek')
+
+print(s != 'BEE GEEK')
+print(s == 'BEE GEEK')
+print(s != 'bee geek')
+print(s == 'bee geek')

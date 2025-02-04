@@ -1,0 +1,2 @@
+strings = [UpperPrintString('beegeek'), UpperPrintString('BeeGeek')]
+print(strings)

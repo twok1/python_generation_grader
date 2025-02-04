@@ -1,0 +1,7 @@
+s1 = LowerString('BEEGEEK')
+s2 = LowerString('BeeGeek')
+
+print(s1)
+print(s2)
+print(s1 == s2)
+print(issubclass(LowerString, str))

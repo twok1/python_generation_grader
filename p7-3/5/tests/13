@@ -1,0 +1,4 @@
+superint1 = SuperInt(2023)
+
+for item in superint1:
+    print(item, type(item))

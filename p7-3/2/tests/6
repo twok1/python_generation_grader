@@ -1,0 +1,2 @@
+lowerstring = LowerString()
+print(type(lowerstring))

@@ -1,0 +1,5 @@
+superint = SuperInt(-200)
+
+for i in range(0, 100, 3):
+    superint = superint.next()
+    print(*superint)

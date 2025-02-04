@@ -1,0 +1,2 @@
+s = UpperPrintString('beegeek')
+print(list(s))

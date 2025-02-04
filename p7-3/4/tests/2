@@ -1,0 +1,4 @@
+titled1 = TitledText('Сreate a class Soda', 'Homework')
+titled2 = TitledText('Сreate a class Soda', 'Exam')
+
+print(titled1 == titled2)

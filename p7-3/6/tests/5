@@ -1,0 +1,2 @@
+for digit in range(100):
+    print(RoundedInt(digit, False))

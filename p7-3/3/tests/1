@@ -1,0 +1,7 @@
+s1 = FuzzyString('BeeGeek')
+s2 = FuzzyString('beegeek')
+
+print(s1 == s2)
+print(s1 in s2)
+print(s2 in s1)
+print(s2 not in s1)

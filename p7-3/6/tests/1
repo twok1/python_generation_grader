@@ -1,0 +1,4 @@
+print(RoundedInt(7))
+print(RoundedInt(8))
+print(RoundedInt(7, False))
+print(RoundedInt(8, False))
