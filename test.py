@@ -115,9 +115,9 @@ if __name__ == "__main__":
         for dirpath, _, filenames in sorted(os.walk('.')):
             for filename in filenames:
                 if 'tests' not in dirpath:
-                    script_file = dirpath.replace('.\\', '')
+                    script_file = dirpath.replace('/', '')
     print(script_file)
-    script_file += '\\' + os.path.split(script_file)[-1] + '.py'
+    script_file += '/' + os.path.split(script_file)[-1] + '.py'
     module_folder, tested_file = os.path.split(script_file)
     # module_folder = script_file
     # tested_file = os.path.split(script_file)[-1] + '.py'
