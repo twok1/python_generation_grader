@@ -1,0 +1,3 @@
+advancedtuple = AdvancedTuple([1, 2, 3])
+advancedtuple += []
+print(advancedtuple)

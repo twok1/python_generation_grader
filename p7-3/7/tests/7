@@ -1,0 +1,9 @@
+advancedtuple = AdvancedTuple([1, 2, 3])
+
+not_supported = [1, 1.0, None]
+
+for item in not_supported:
+    try:
+        advancedtuple += item
+    except TypeError as e:
+        print(e)

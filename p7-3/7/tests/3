@@ -1,0 +1,7 @@
+data = [[4, 5, 6], {4: None, 5: None, 6: None}, (4, 5, 6), '456', iter([4, 5, 6]), AdvancedTuple([4, 5, 6])]
+
+advancedtuple = AdvancedTuple([1, 2, 3])
+
+for item in data:
+    print(advancedtuple + item, end=' ')
+    print(item + advancedtuple)
