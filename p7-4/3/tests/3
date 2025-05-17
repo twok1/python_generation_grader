@@ -1,0 +1,6 @@
+d = TwoWayDict()
+
+for i in range(100):
+    d[i] = i + 100
+
+print(d)

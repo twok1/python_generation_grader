@@ -1,0 +1,3 @@
+advancedlist = AdvancedList(['hello', 'Gvido', 'how', 'are', 'you'])
+advancedlist.map(len)
+print(advancedlist)

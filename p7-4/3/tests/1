@@ -1,0 +1,8 @@
+twowaydict = TwoWayDict({'apple': 1})
+
+twowaydict['banana'] = 2
+
+print(twowaydict['apple'])
+print(twowaydict[1])
+print(twowaydict['banana'])
+print(twowaydict[2])

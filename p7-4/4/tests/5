@@ -1,0 +1,5 @@
+advancedlist = AdvancedList([1, 2, 3, 4, 5])
+separators = [' - ', ' + ', ' = ', ' * ', ' / ', ' ! ', ' 0 ', ' & ', ' ^ ', ' -> ']
+
+for separator in separators:
+    print(advancedlist.join(separator))
