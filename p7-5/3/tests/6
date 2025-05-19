@@ -1,0 +1,12 @@
+class Student:
+    age = Number(maxvalue=100)
+
+
+student = Student()
+student.age = 11
+print(student.age)
+
+try:
+    student.age = 101
+except ValueError as error:
+    print(error)

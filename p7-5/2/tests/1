@@ -1,0 +1,5 @@
+king = King('b', 2)
+
+print(king.can_move('c', 3))
+print(king.can_move('a', 1))
+print(king.can_move('f', 7))

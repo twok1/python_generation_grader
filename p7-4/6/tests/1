@@ -1,0 +1,4 @@
+valuedict = ValueDict({'apple': 1, 'banana': 2, 'orange': 2})
+
+print(valuedict.key_of(2))
+print(*valuedict.keys_of(2))

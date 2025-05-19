@@ -1,0 +1,5 @@
+king = King('a', 1)
+
+for horizontal in 'abcdefg':
+    for vertical in range(1, 9):
+        print(f'{horizontal}{vertical}', king.can_move(horizontal, vertical))

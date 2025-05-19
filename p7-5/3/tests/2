@@ -1,0 +1,8 @@
+class Student:
+    age = Number(18, 99)
+
+try:
+    student = Student()
+    student.age = '19'
+except TypeError as error:
+    print(error)

@@ -1,0 +1,10 @@
+class Person:
+    name = String(6, 10)
+
+
+person = Person()
+person.name = 'Андрей'
+print(person.name)
+
+person.name = 'Абдурахман'
+print(person.name)

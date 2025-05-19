@@ -1,0 +1,21 @@
+class Person:
+    name = String(6, 10)
+
+
+person = Person()
+
+try:
+    person.name = 'Ян'
+except ValueError as e:
+    print(e)
+
+
+try:
+    person.name = 'Аполлинария'
+except ValueError as e:
+    print(e)
+
+try:
+    person.name = 1
+except TypeError as e:
+    print(e)

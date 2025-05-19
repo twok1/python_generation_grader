@@ -1,0 +1,8 @@
+data = [1, 2, 3]
+numberlist = NumberList(data)
+
+print(numberlist)
+
+data.extend([4, 5, 6])
+print(data)
+print(numberlist)

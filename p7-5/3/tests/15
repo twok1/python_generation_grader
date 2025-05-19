@@ -1,0 +1,12 @@
+class PositiveNumber:
+    num = Number(0)
+
+
+positivenumber = PositiveNumber()
+positivenumber.num = 0
+print(positivenumber.num)
+
+try:
+    positivenumber.num = -1
+except ValueError as e:
+    print(e)

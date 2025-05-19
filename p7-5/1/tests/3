@@ -1,0 +1,8 @@
+user_votes = [99, 90, 71, 1, 1, 100, 56, 60, 80]
+expert_votes = [87, 90, 67, 70, 81, 85, 97, 79, 71]
+harmonic = Harmonic(user_votes, expert_votes)
+
+print(harmonic.get_correct_user_votes())
+print(harmonic.get_correct_expert_votes())
+print(round(harmonic.get_average(), 2))
+print(round(harmonic.get_average(False), 2))

@@ -1,0 +1,4 @@
+valuedict = ValueDict({})
+
+print(valuedict.key_of(12))
+print(*valuedict.keys_of(33))

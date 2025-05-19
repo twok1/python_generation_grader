@@ -1,0 +1,6 @@
+numberlist = NumberList([1, 2])
+
+try:
+    numberlist += [3, '4']
+except TypeError as e:
+    print(e)

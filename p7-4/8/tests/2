@@ -1,0 +1,6 @@
+mutablestring = MutableString('beegeek')
+
+print(mutablestring)
+mutablestring[0] = 'B'
+mutablestring[-4] = 'G'
+print(mutablestring)

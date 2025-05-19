@@ -1,0 +1,6 @@
+knight = Knight('h', 8)
+
+print(knight.can_move('h', 8))
+print(knight.can_move('a', 6))
+print(knight.can_move('a', 1))
+print(knight.can_move('g', 6))

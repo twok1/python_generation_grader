@@ -1,0 +1,10 @@
+class Person:
+    name = String(6, 10, predicate=lambda x: x.startswith('А'))
+
+
+person = Person()
+
+try:
+    person.name = 'Василий'
+except ValueError as e:
+    print(e)

@@ -1,0 +1,8 @@
+mutablestring = MutableString('Beegeek')
+
+mutablestring.lower()
+print(mutablestring)
+mutablestring.upper()
+print(mutablestring)
+mutablestring.sort()
+print(mutablestring)

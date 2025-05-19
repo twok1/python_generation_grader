@@ -1,0 +1,6 @@
+numberlist = NumberList([1, 2])
+
+numberlist.append(3)
+numberlist.extend([4, 5])
+numberlist.insert(0, 0)
+print(numberlist)

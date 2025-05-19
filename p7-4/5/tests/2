@@ -1,0 +1,6 @@
+numberlist = NumberList([0, 1.0])
+
+numberlist[1] = 1
+numberlist = numberlist + NumberList([2, 3])
+numberlist += NumberList([4, 5])
+print(numberlist)

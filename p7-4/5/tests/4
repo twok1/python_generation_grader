@@ -1,0 +1,6 @@
+numberlist = NumberList([1, 2, 3])
+
+try:
+    numberlist.append('4')
+except TypeError as error:
+    print(error)

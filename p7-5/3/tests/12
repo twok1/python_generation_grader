@@ -1,0 +1,12 @@
+class Person:
+    name = String(6)
+
+
+person = Person()
+person.name = 'Пабло Диего Хосе Франциско де Паула Хуан Непомукено Криспин Криспиано де ла Сантисима Тринидад Руиз Пикассо'
+print(person.name)
+
+try:
+    person.name = 'Ира'
+except ValueError as e:
+    print(e)

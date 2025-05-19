@@ -1,0 +1,5 @@
+numberlist = NumberList([1, 2])
+try:
+    numberlist.insert(0, [5, 4, 3])
+except TypeError as e:
+    print(e)

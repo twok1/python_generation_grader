@@ -10,8 +10,3 @@ class AdvancedList(UserList):
     def filter(self, func):
         self.data = list(filter(func, self.data))
 
-
-advancedlist = AdvancedList([1, 2, 3, 4, 5])
-
-print(advancedlist.join())
-print(advancedlist.join('-'))

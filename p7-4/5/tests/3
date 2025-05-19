@@ -1,0 +1,4 @@
+try:
+    numberlist = NumberList(['a', 'b', 'c'])
+except TypeError as error:
+    print(error)

@@ -1,0 +1,5 @@
+numberlist = NumberList([1, 2])
+try:
+    numberlist.extend([5, '4', 3])
+except TypeError as e:
+    print(e)

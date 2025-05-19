@@ -1,0 +1,10 @@
+class Student:
+    age = Number(18, 99)
+
+
+student = Student()
+student.age = 18
+print(student.age)
+
+student.age = 99
+print(student.age)

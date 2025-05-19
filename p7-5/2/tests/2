@@ -1,0 +1,4 @@
+knight = Knight('c', 3)
+
+print(knight.can_move('e', 5))
+print(knight.can_move('e', 4))
