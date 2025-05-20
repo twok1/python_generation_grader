@@ -1,0 +1,8 @@
+customrange = CustomRange(1, '2-5', 5, '6-8')
+
+print(customrange[0])
+print(customrange[1])
+print(customrange[2])
+print(customrange[-1])
+print(customrange[-2])
+print(customrange[-3])

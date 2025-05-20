@@ -1,0 +1,4 @@
+customrange = CustomRange('0-50', '25-75', '50-100')
+
+for digit in customrange:
+    print(digit, end=' ')

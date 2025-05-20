@@ -1,0 +1,7 @@
+customrange = CustomRange(1, '2-5', 3, '1-4')
+
+print(*customrange)
+print(*reversed(customrange))
+print(len(customrange))
+print(1 in customrange)
+print(10 in customrange)

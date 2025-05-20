@@ -1,0 +1,10 @@
+bitarray1 = BitArray([1, 0, 1, 1])
+bitarray2 = BitArray([0, 0, 0, 1])
+
+bitarray3 = bitarray1 | bitarray2
+bitarray4 = bitarray1 & bitarray2
+bitarray5 = ~bitarray1
+
+print(bitarray3, type(bitarray3))
+print(bitarray4, type(bitarray4))
+print(bitarray5, type(bitarray5))

@@ -1,0 +1,9 @@
+bitarray = BitArray([1, 0, 1, 1])
+
+print(bitarray)
+print(~bitarray)
+print(bitarray[0])
+print(bitarray[1])
+print(bitarray[-1])
+print(0 in bitarray)
+print(1 not in bitarray)

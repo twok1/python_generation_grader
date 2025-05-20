@@ -1,0 +1,13 @@
+data1 = [0, 1, 1, 0, 0, 1, 0, 0, 1, 1, 0, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 0, 1, 1,
+         1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 0]
+
+data2 = [1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1, 0, 0, 1, 0, 1, 0, 1, 0, 1, 1, 1,
+         1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 1]
+
+bitarray1 = BitArray(data1)
+bitarray2 = BitArray(data2)
+
+
+print(len(bitarray1) == len(bitarray2))
+print(bitarray1 | bitarray2)
+print(bitarray1 & bitarray2)
