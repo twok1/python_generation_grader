@@ -1,0 +1,8 @@
+dna1 = DNA('ACG')
+dna2 = DNA('TTTAAT')
+dna3 = DNA('TTTAAT')
+
+print(dna1 == dna2)
+print(dna2 == dna3)
+print(dna1 != dna3)
+print(dna2 != dna3)

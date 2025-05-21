@@ -1,0 +1,5 @@
+dna = DNA('ACG')
+not_supported = [1, 2.23, [1, 2, 3], {1: 'one'}, {4, 5, 6}, True, False, 'CTA', (7, 8, 9)]
+
+for item in not_supported:
+    print(item == dna)

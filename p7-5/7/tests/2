@@ -1,0 +1,6 @@
+dna = DNA('AGT')
+
+print(dna)
+print(len(dna))
+print('A' in dna)
+print('C' in dna)

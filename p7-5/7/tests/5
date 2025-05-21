@@ -1,0 +1,6 @@
+dna = DNA('TGAACCTGACCTCGATTTCAAGGG')
+
+print(*dna)
+print(*reversed(dna))
+print('A' in dna)
+print('C' not in dna)

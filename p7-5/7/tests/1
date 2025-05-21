@@ -1,0 +1,8 @@
+dna = DNA('AGTC')
+
+print(dna[0])
+print(dna[1])
+print(dna[2])
+print(dna[3])
+print(dna[-1])
+print(dna[-2])

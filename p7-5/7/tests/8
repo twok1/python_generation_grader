@@ -1,0 +1,4 @@
+dna = DNA('ACG')
+print(dna.__eq__(1))
+print(dna.__ne__(1.1))
+print(dna.__add__([1, 2, 3]))
