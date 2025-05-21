@@ -1,0 +1,6 @@
+numbers = SortedList([5, 3, 4, 2, 1])
+
+print(len(numbers))
+print(*numbers)
+print(1 in numbers)
+print(6 in numbers)

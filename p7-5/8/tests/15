@@ -1,0 +1,8 @@
+numbers1 = SortedList([5, 3, 4, 2, 1])
+numbers2 = SortedList([10, 9, 8, 7, 6])
+
+numbers1 += numbers2
+print(numbers1, type(numbers1))
+
+numbers2 *= 2
+print(numbers2, type(numbers2))

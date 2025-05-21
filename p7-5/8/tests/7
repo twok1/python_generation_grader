@@ -1,0 +1,6 @@
+numbers = SortedList([1, 2, 3, 4, 5])
+
+try:
+    numbers.extend([6, 7, 8, 9, 10])
+except NotImplementedError:
+    print('Неподдерживаемая операция')

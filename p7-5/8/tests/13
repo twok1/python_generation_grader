@@ -1,0 +1,2 @@
+numbers = SortedList()
+print(numbers)

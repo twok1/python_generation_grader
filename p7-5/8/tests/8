@@ -1,0 +1,6 @@
+numbers = SortedList([1, 2, 3, 4, 5])
+
+try:
+    numbers.reverse()
+except NotImplementedError:
+    print('Неподдерживаемая операция')
