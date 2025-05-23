@@ -1,0 +1,4 @@
+happy
+unhappy
+strict
+kind

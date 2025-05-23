@@ -1,0 +1,4 @@
+Hello!
+neutral
+kind
+strict

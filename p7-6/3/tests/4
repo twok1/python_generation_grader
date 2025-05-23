@@ -1,0 +1,15 @@
+class Animal:
+    def sound(self):
+        pass
+
+
+class Cat(Animal):
+    def sound(self):
+        return 'мяу'
+
+
+class Kitten(Cat):
+    pass
+
+
+print(get_method_owner(Kitten, 'sound'))

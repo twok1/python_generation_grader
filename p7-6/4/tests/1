@@ -1,0 +1,7 @@
+father = Father()
+mother = Mother()
+
+print(father.mood)
+print(mother.mood)
+print(father.greet())
+print(mother.greet())

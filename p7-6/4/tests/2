@@ -1,0 +1,9 @@
+father = Father('happy')
+mother = Mother('unhappy')
+
+print(father.mood)
+print(mother.mood)
+father.be_strict()
+mother.be_kind()
+print(father.mood)
+print(mother.mood)

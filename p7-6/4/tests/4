@@ -1,0 +1,8 @@
+son = Son()
+
+print(son.greet())
+print(son.mood)
+son.be_kind()
+print(son.mood)
+son.be_strict()
+print(son.mood)

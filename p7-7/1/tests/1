@@ -1,0 +1,4 @@
+usadate = USADate(2023, 4, 6)
+
+print(usadate.format())
+print(usadate.iso_format())

@@ -1,0 +1,20 @@
+class A:
+    def method(self):
+        print('Метод класса A')
+
+
+class B(A):
+    def method(self):
+        print('Метод класса B')
+
+
+class C(A):
+    def method(self):
+        print('Метод класса C')
+
+
+class D(B, C):
+    pass
+
+
+print(get_method_owner(D, 'method'))

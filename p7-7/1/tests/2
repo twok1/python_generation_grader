@@ -1,0 +1,4 @@
+italiandate = ItalianDate(2023, 4, 6)
+
+print(italiandate.format())
+print(italiandate.iso_format())

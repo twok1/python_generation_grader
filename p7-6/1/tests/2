@@ -1,0 +1,3 @@
+print(issubclass(B, A))
+print(issubclass(C, A))
+print(issubclass(D, A))
