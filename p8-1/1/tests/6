@@ -1,0 +1,5 @@
+shape1 = Shape('rectangle', 'Chartreuse', 92)
+shape2 = Shape('square', 'AliceBlue', 18)
+
+print(shape1 == shape2)
+print(shape1 != shape2)

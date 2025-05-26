@@ -1,0 +1,5 @@
+shape1 = Shape('hexagon', 'RosyBrown', 59)
+shape2 = Shape('rectangle', 'MediumAquaMarine', 64)
+
+print(shape1 < shape2)
+print(shape1 > shape2)

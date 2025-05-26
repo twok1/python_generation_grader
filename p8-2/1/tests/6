@@ -1,0 +1,2 @@
+for instance in HTTPStatusCodes:
+    print(f'{instance.name} -> {instance.value}')

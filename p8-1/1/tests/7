@@ -1,0 +1,5 @@
+shape1 = Shape('triangle', 'DarkSlateBlue', 35)
+shape2 = Shape('circle', 'Silver', 59)
+
+print(shape1 >= shape2)
+print(shape1 <= shape2)

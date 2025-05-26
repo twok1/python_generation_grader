@@ -1,0 +1,2 @@
+for season in Seasons:
+    print(season.text_value('en'), '->', season.text_value('ru'))

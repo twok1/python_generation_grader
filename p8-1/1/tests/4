@@ -1,0 +1,6 @@
+shape = Shape('triangle', 'red', 12)
+
+try:
+    shape.perimeter = 9
+except AttributeError:
+    print('Error')

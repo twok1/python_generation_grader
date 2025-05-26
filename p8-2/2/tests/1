@@ -1,0 +1,2 @@
+print(Seasons.FALL.text_value('ru'))
+print(Seasons.FALL.text_value('en'))

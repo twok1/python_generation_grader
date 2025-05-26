@@ -1,0 +1,5 @@
+shape = Shape('triangle', 'red', 12)
+
+print(shape.name)
+print(shape.color)
+print(shape.area)

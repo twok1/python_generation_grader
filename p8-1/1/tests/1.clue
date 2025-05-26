@@ -1,0 +1,3 @@
+triangle
+red
+12

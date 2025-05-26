@@ -1,0 +1,2 @@
+print(Shape('rectangle', 'green', 12) == Shape('triangle', 'red', 12))
+print(Shape('triangle', 'red', 15) > Shape('triangle', 'red', 12))

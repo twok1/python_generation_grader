@@ -1,0 +1,2 @@
+for season in Seasons:
+    print(season.name, season.value)

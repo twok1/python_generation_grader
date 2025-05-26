@@ -1,0 +1,2 @@
+print(HTTPStatusCodes.OK.info())
+print(HTTPStatusCodes.OK.code_class())

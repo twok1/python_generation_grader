@@ -1,0 +1,2 @@
+print(HTTPStatusCodes.CONTINUE.info())
+print(HTTPStatusCodes.CONTINUE.code_class())

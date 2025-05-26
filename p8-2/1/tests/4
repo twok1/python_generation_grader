@@ -1,0 +1,2 @@
+print(HTTPStatusCodes.NOT_FOUND.info())
+print(HTTPStatusCodes.NOT_FOUND.code_class())

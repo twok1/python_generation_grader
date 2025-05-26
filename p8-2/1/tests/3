@@ -1,0 +1,2 @@
+print(HTTPStatusCodes.USE_PROXY.info())
+print(HTTPStatusCodes.USE_PROXY.code_class())

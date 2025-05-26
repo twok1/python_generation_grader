@@ -1,0 +1,2 @@
+print(HTTPStatusCodes.BAD_GATEWAY.info())
+print(HTTPStatusCodes.BAD_GATEWAY.code_class())

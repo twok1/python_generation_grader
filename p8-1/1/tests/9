@@ -1,0 +1,6 @@
+shape = Shape('square', 'LemonChiffon', 50)
+not_supported = [[1, 2], True, (1, 2, 3, 4), 'beegeek', {'name': 'Grace Hopper'}, {18, 22}]
+
+for item in not_supported:
+    print(shape == item)
+    print(item == shape)

@@ -1,0 +1,13 @@
+figures = ['rectangle', 'square', 'triangle', 'circle', 'hexagon', 'rectangle', 'square', 'triangle', 'circle',
+           'hexagon', 'rectangle', 'square', 'triangle', 'circle', 'hexagon', 'rectangle', 'square', 'triangle',
+           'circle', 'hexagon']
+
+colors = ['Chartreuse', 'AliceBlue', 'DarkSlateBlue', 'Silver', 'RosyBrown', 'MediumAquaMarine', 'LemonChiffon',
+          'LightSalmon', 'Moccasin', 'Indigo', 'DarkViolet', 'MediumOrchid', 'AntiqueWhite', 'Peru', 'DarkOliveGreen',
+          'CadetBlue', 'Lime', 'LightBlue', 'OrangeRed', 'Yellow']
+
+areas = [92, 18, 35, 59, 59, 64, 50, 38, 26, 58, 25, 74, 17, 67, 24, 20, 30, 54, 88, 64]
+
+for figure, color, area in zip(figures, colors, areas):
+    shape = Shape(figure, color, area)
+    print(shape)
