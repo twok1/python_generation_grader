@@ -1,0 +1,7 @@
+conference = Conference()
+conference.add(Lecture('Декораторы @classmethod и @staticmethod', '09:30', '00:30'))
+
+try:
+    conference.add(Lecture('Декоратор @singledispatchmethod', '09:30', '00:30'))
+except ValueError as e:
+    print(e)

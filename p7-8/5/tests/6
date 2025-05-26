@@ -1,0 +1,7 @@
+conference = Conference()
+conference.add(Lecture('Декоратор @property', '09:30', '00:30'))
+conference.add(Lecture('Свойства', '09:00', '00:30'))
+conference.add(Lecture('Модификаторы доступа и аксессоры', '08:30', '00:30'))
+
+print(conference.longest_lecture())
+print(conference.longest_break())

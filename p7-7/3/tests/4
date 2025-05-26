@@ -1,0 +1,13 @@
+rightparagraph = RightParagraph(28)
+
+rightparagraph.add('I will not regret the roses')
+rightparagraph.add('Withered with a light spring')
+rightparagraph.add('I love the grapes on the vines')
+rightparagraph.add('Ripened in the hands under the mountain')
+rightparagraph.end()
+
+rightparagraph.add('The beauty of my green valley')
+rightparagraph.add('Golden joy of autumn')
+rightparagraph.add('oblong and transparent')
+rightparagraph.add('Like the fingers of a young maiden')
+rightparagraph.end()

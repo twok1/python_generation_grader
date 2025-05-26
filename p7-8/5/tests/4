@@ -1,0 +1,7 @@
+conference = Conference()
+conference.add(Lecture('Муравьиный алгоритм', '09:30', '02:00'))
+conference.add(Lecture('Жизнь после ChatGPT', '11:45', '04:00'))
+conference.add(Lecture('Простые числа', '08:00', '01:30'))
+
+print(conference.longest_lecture())
+print(conference.longest_break())

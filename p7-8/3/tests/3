@@ -1,0 +1,9 @@
+deck = Deck()
+
+for _ in range(52):
+    deck.deal()
+    
+try:
+    deck.deal()
+except ValueError as error:
+    print(error)

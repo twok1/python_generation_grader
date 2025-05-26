@@ -1,0 +1,12 @@
+minstat = MinStat()
+maxstat = MaxStat()
+averagestat = AverageStat()
+
+for i in range(1, 6):
+    minstat.add(i)
+    maxstat.add(i)
+    averagestat.add(i)
+
+print(minstat.result())
+print(maxstat.result())
+print(averagestat.result())

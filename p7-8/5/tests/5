@@ -1,0 +1,7 @@
+conference = Conference()
+conference.add(Lecture('Введение в ООП', '09:30', '00:30'))
+conference.add(Lecture('Атрибуты объектов и классов', '08:00', '01:30'))
+conference.add(Lecture('Методы экземляра класса', '10:30', '02:00'))
+
+print(conference.longest_lecture())
+print(conference.longest_break())

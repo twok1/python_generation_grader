@@ -1,0 +1,6 @@
+rightparagraph = RightParagraph(10)
+
+rightparagraph.add('death')
+rightparagraph.add('can have me')
+rightparagraph.add('when it earns me')
+rightparagraph.end()

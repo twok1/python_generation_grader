@@ -1,0 +1,13 @@
+leftparagraph = LeftParagraph(23)
+
+leftparagraph.add('Multiply noise and joy')
+leftparagraph.add('Sing songs in a good hour')
+leftparagraph.add('Friendship grace and youth')
+leftparagraph.add('Our birthday girls')
+leftparagraph.end()
+
+leftparagraph.add('Meanwhile the winged child')
+leftparagraph.add('friends greeting you')
+leftparagraph.add('Secretly thinks sometime')
+leftparagraph.add('I will be the birthday boy')
+leftparagraph.end()

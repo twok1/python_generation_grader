@@ -1,0 +1,3 @@
+print(Card('♣', '4'))
+print(Card('♡', 'A'))
+print(Card('♢', '10'))

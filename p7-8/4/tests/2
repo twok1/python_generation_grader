@@ -1,0 +1,6 @@
+queue = Queue([('one', 1)])
+
+queue.add(('two', 2))
+print(queue.pop())
+print(queue.pop())
+print(queue)

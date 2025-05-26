@@ -1,0 +1,6 @@
+queue = Queue()
+
+try:
+    queue.pop()
+except KeyError as error:
+    print(error)

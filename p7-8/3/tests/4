@@ -1,0 +1,8 @@
+deck = Deck()
+
+deck.deal()
+    
+try:
+    deck.shuffle()
+except ValueError as error:
+    print(error)

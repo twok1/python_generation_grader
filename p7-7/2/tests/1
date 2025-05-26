@@ -1,0 +1,11 @@
+minstat = MinStat([1, 2, 4])
+maxstat = MaxStat([1, 2, 4])
+averagestat = AverageStat([1, 2, 4])
+
+minstat.add(5)
+maxstat.add(5)
+averagestat.add(5)
+
+print(minstat.result())
+print(maxstat.result())
+print(averagestat.result())

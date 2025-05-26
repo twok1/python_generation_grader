@@ -1,0 +1,5 @@
+item1 = Item('Yoga Mat', 130)
+item2 = Item('Flannel Shirt', 22)
+
+print(item1)
+print(item2)

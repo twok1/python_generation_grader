@@ -1,0 +1,4 @@
+deck = Deck()
+
+for _ in range(52):
+    print(deck.deal())

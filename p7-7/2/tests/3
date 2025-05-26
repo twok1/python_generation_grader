@@ -1,0 +1,7 @@
+minstat = MinStat()
+maxstat = MaxStat()
+averagestat = AverageStat()
+
+print(minstat.result())
+print(maxstat.result())
+print(averagestat.result())

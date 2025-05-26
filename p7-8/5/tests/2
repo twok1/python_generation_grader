@@ -1,0 +1,7 @@
+conference = Conference()
+conference.add(Lecture('Простые числа', '08:00', '01:30'))
+
+try:
+    conference.add(Lecture('Жизнь после ChatGPT', '09:00', '02:00'))
+except ValueError as error:
+    print(error)

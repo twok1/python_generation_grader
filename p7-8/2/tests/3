@@ -1,0 +1,5 @@
+shopping_cart = ShoppingCart([Item('Yoga Mat', 130), Item('Flannel Shirt', 22)])
+
+shopping_cart.remove('Yoga Mat')
+print(shopping_cart)
+print(shopping_cart.total())

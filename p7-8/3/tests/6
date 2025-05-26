@@ -1,0 +1,6 @@
+deck = Deck()
+
+deck.shuffle()
+
+for _ in range(52):
+    print(deck.deal())
