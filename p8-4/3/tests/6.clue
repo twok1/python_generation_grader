@@ -1,0 +1,3 @@
+mul
+multiplication
+12

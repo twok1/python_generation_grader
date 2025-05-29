@@ -1,0 +1,2 @@
+for order in OrderStatus:
+    print(order)

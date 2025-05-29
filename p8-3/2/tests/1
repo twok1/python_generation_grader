@@ -1,0 +1,3 @@
+movie = Movie('The Lord of the Rings', MovieGenres.ACTION | MovieGenres.FANTASY)
+
+print(movie)

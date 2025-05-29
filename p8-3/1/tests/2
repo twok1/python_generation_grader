@@ -1,0 +1,3 @@
+print(OrderStatus.ORDER_PLACED.value)
+print(OrderStatus.PAYMENT_RECEIVED.value)
+print(OrderStatus.SHIPPING_COMPLETE.value)

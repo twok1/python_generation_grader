@@ -1,0 +1,12 @@
+@returns(list)
+def beegeek():
+    '''beegeek docs'''
+    return 'beegeek'
+
+print(beegeek.__name__)
+print(beegeek.__doc__)
+
+try:
+    print(beegeek())
+except TypeError as e:
+    print(type(e))

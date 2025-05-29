@@ -1,0 +1,8 @@
+@ignore_exception(ValueError, TypeError, ZeroDivisionError, NameError)
+def func():
+    raise ZeroDivisionError
+ 
+try:    
+    func()
+except Exception as error:
+    print(type(error))

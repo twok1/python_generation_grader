@@ -1,0 +1,5 @@
+@reverse_args
+def operation(a, b, value1=10, value2=30):
+    return a // b - value1 + value2
+
+print(operation(140, 70, value1=50, value2=100))

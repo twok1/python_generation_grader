@@ -1,0 +1,9 @@
+@takes_numbers
+def mul(a, b=2):
+    """multiplication"""
+    return a * b
+
+
+print(mul.__name__)
+print(mul.__doc__)
+print(mul(3, 4))

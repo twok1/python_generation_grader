@@ -1,0 +1,5 @@
+movie = Movie('Scary movie', MovieGenres.COMEDY | MovieGenres.HORROR)
+
+print(movie.in_genre(MovieGenres.FANTASY))
+print(movie.in_genre(MovieGenres.COMEDY))
+print(movie.in_genre(MovieGenres.COMEDY | MovieGenres.HORROR))

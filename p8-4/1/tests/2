@@ -1,0 +1,5 @@
+@reverse_args
+def concat(a, b, c):
+    return a + b + c
+    
+print(concat('apple', 'cherry', 'melon'))

@@ -1,0 +1,8 @@
+@reverse_args
+def operation(a, b, value=10):
+    return a // b + value
+
+try:
+    print(operation(0, 70))
+except ZeroDivisionError:
+    print('ZeroDivisionError')

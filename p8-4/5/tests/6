@@ -1,0 +1,3 @@
+sum = exception_decorator(sum)
+
+print(sum(['199', '1', 187]))

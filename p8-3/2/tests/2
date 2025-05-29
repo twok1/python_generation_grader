@@ -1,0 +1,5 @@
+movie = Movie('The Lord of the Rings', MovieGenres.ACTION | MovieGenres.FANTASY)
+
+print(movie.in_genre(MovieGenres.FANTASY))
+print(movie.in_genre(MovieGenres.COMEDY))
+print(movie.in_genre(MovieGenres.ACTION | MovieGenres.FANTASY))

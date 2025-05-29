@@ -1,0 +1,8 @@
+from datetime import date
+
+for weekday in Weekday:
+    today = date(2023, 4, 27)                              # четверг
+    next_date = NextDate(today, weekday, True)
+
+    print(next_date.date())
+    print(next_date.days_until())

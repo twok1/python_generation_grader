@@ -1,0 +1,6 @@
+movie = Movie('Любовь и голуби', MovieGenres.DRAMA | MovieGenres.COMEDY)
+
+print(movie.in_genre(MovieGenres.DRAMA))
+print(movie.in_genre(MovieGenres.ACTION))
+print(movie.in_genre(MovieGenres.DRAMA | MovieGenres.COMEDY))
+print(movie)

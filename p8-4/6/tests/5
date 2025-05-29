@@ -1,0 +1,8 @@
+@ignore_exception(ValueError, TypeError, NameError)
+def func():
+    raise NameError
+ 
+try:    
+    func()
+except Exception as error:
+    print(type(error))

@@ -1,0 +1,5 @@
+@reverse_args
+def operation(a, b, name):
+    return a // b + name
+    
+print(operation(10, 90, name=1))

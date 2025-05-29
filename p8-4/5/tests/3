@@ -1,0 +1,5 @@
+@exception_decorator
+def f(x, y):
+    return x * y
+    
+print(f('stepik', 'stepik'))

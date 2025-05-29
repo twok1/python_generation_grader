@@ -1,0 +1,9 @@
+@limited_calls(10)
+def power(a, n):
+    """degree"""
+    return a ** n
+
+
+print(power.__name__)
+print(power.__doc__)
+print(power(2, 3))

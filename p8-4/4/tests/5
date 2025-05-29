@@ -1,0 +1,12 @@
+@returns(tuple)
+def append_this(li, elem):
+    '''append_this docs'''
+    return li + [elem]
+
+print(append_this.__name__)
+print(append_this.__doc__)
+
+try:
+    print(append_this([1, 2, 3], [4, 5, 6]))
+except TypeError as e:
+    print(type(e))

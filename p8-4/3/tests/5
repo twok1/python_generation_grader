@@ -1,0 +1,9 @@
+@takes_numbers
+def mul(a, b=2):
+    return a * b
+
+
+try:
+    print(mul(1, b='2'))
+except TypeError as error:
+    print(error)

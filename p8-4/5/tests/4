@@ -1,0 +1,5 @@
+@exception_decorator
+def f(*args, **kwargs):
+    return sum(args) + sum(kwargs.values())
+    
+print(f(1, 2, 3, param1=4, param2=10))

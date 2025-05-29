@@ -1,0 +1,8 @@
+@returns(int)
+def add(a, b):
+    return a + b
+
+try:
+    print(add('1', '2'))
+except Exception as error:
+    print(type(error))

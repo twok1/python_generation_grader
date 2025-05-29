@@ -1,0 +1,1 @@
+Исключение ZeroDivisionError обработано

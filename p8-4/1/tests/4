@@ -1,0 +1,9 @@
+@reverse_args
+def operation(a, b):
+    """integer division"""
+    return a // b
+
+
+print(operation.__name__)
+print(operation.__doc__)
+print(operation(90, 0))

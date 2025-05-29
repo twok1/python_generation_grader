@@ -1,0 +1,10 @@
+from datetime import date, timedelta
+
+today = date(2023, 4, 23)
+
+for _ in range(7):
+    today += timedelta(days=1)
+    for weekday in Weekday:
+        next_date = NextDate(today, weekday, True)
+        print(f'Today = {today} {Weekday(today.weekday()).name}, next {weekday.name} = {next_date.date()}')
+        print(f'Days until = {next_date.days_until()}')

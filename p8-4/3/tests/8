@@ -1,0 +1,6 @@
+@takes_numbers
+def mul(a, b=2):
+    return a * b
+
+
+print(mul(1, b=2))

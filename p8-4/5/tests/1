@@ -1,0 +1,6 @@
+@exception_decorator
+def func(x):
+    return 2*x + 1
+    
+print(func(1))
+print(func('bee'))

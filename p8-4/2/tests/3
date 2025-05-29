@@ -1,0 +1,12 @@
+@limited_calls(5)
+def concat(a, b, c):
+    return a + b + c
+
+
+for _ in range(5):
+    print(concat('123', '456', '789'))
+
+try:
+    print(concat('123', '456', '789'))
+except MaxCallsException as e:
+    print(e)

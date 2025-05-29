@@ -1,0 +1,3 @@
+power
+degree
+8

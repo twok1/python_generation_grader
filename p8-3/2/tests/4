@@ -1,0 +1,6 @@
+movie = Movie('Avengers', MovieGenres.FANTASY | MovieGenres.ACTION)
+
+print(movie.in_genre(MovieGenres.DRAMA))
+print(movie.in_genre(MovieGenres.ACTION))
+print(movie.in_genre(MovieGenres.FANTASY | MovieGenres.ACTION))
+print(movie)

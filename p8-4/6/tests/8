@@ -1,0 +1,9 @@
+@ignore_exception(ValueError, TypeError, ZeroDivisionError, NameError)
+def beegeek():
+    """beegeek"""
+    return 'beegeek'
+
+
+print(beegeek.__name__)
+print(beegeek.__doc__)
+print(beegeek())
