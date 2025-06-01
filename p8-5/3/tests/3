@@ -1,0 +1,14 @@
+with open('test.json', 'w') as file:
+    file.write('{"name": "Кемаль", "breed": "Британский"}')
+
+
+@jsonattr('test.json')
+class Cat:
+    def __init__(self, name=None, breed=None):
+        self.name = name or self.name
+        self.surname = breed or self.breed
+
+
+cat = Cat()
+print(cat.name)
+print(cat.breed)

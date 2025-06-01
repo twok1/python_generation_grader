@@ -1,0 +1,13 @@
+@limiter(3, 'my_id', 'FIRST')
+class MyClass:
+    def __init__(self, value, my_id):
+        self.my_id = my_id
+        self.value = value
+
+
+obj1 = MyClass(12, 0)
+obj2 = MyClass(24, 1)
+obj3 = MyClass(36, 2)
+
+obj4 = MyClass(48, 3)
+print(obj4 is obj1)

@@ -1,0 +1,8 @@
+@type_check([int, int, str, list])
+def add(a, b):
+    """sum a and b"""
+    return a + b
+
+print(add.__name__)
+print(add.__doc__)
+print(add(1, 2))

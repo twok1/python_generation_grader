@@ -1,0 +1,8 @@
+@singleton
+class MyClass:
+    pass
+
+
+instances = [MyClass() for _ in range(100)]
+obj = MyClass()
+print(all(instance is obj for instance in instances))

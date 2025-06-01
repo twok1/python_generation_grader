@@ -1,0 +1,13 @@
+@limiter(10, 'my_id', 'FIRST')
+class MyClass:
+    def __init__(self, value, my_id):
+        self.my_id = my_id
+        self.value = value
+
+
+values = [(84, 0), (97, 1), (41, 2), (80, 3), (31, 4), (40, 5), (26, 6), (51, 7), (68, 8), (41, 9), (76, 10), (56, 11),
+          (96, 12), (48, 13), (87, 14), (86, 15), (88, 16), (52, 17), (13, 18), (82, 19)]
+
+for value, ID in values:
+    obj = MyClass(value, ID)
+    print(f'ID = {obj.my_id}, value = {obj.value}')

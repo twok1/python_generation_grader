@@ -1,0 +1,13 @@
+@track_instances
+class Person:
+    def __init__(self, name):
+        self.name = name
+
+    def __repr__(self):
+        return f'Person({self.name!r})'
+
+
+obj1 = Person('object 1')
+obj2 = Person('object 2')
+
+print(Person.instances)

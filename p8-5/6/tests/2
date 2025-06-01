@@ -1,0 +1,10 @@
+@auto_repr(args=['name', 'surname'], kwargs=[])
+class Person:
+    def __init__(self, name, surname):
+        self.name = name
+        self.surname = surname
+
+
+person = Person('Gvido', 'van Rossum')
+
+print(person)

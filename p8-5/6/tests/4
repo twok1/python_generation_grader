@@ -1,0 +1,8 @@
+@auto_repr(args=[], kwargs=[])
+class Gun:
+    pass
+
+
+gun = Gun()
+
+print(gun)

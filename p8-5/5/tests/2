@@ -1,0 +1,7 @@
+@snake_case(attrs=True)
+class MyClass:
+    FirstAttr = 1
+    superSecondAttr = 2
+
+print(MyClass.first_attr)
+print(MyClass.super_second_attr)

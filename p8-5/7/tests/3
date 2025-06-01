@@ -1,0 +1,13 @@
+@limiter(10, 'uniq', 'LAST')
+class MyClass:
+    def __init__(self, uniq, value):
+        self.uniq = uniq
+        self.value = value
+
+
+values = [(0, 48), (1, 17), (2, 36), (3, 26), (4, 52), (5, 90), (6, 98), (7, 46), (8, 86), (9, 95), (10, 35), (11, 84),
+          (12, 64), (13, 30), (14, 30), (15, 16), (16, 22), (17, 96), (18, 41), (19, 31)]
+
+for ID, value in values:
+    obj = MyClass(ID, value)
+    print(f'ID = {obj.uniq}, value = {obj.value}')

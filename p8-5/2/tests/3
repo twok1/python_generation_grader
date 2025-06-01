@@ -1,0 +1,13 @@
+data = {'name': 'John', 'surname': 'Doe'}
+
+
+@add_attr_to_class(**data)
+class Person:
+    def __init__(self, name=None, surname=None):
+        self.name = name or self.name
+        self.surname = surname or self.surname
+
+
+person = Person()
+print(person.name)
+print(person.surname)

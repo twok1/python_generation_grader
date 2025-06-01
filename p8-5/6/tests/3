@@ -1,0 +1,10 @@
+@auto_repr(args=[], kwargs=['name', 'breed'])
+class Cat:
+    def __init__(self, name, breed):
+        self.name = name
+        self.breed = breed
+
+
+cat = Cat('Кемаль', 'Британский')
+
+print(cat)

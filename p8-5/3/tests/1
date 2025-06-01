@@ -1,0 +1,9 @@
+with open('test.json', 'w') as file:
+    file.write('{"x": 1, "y": 2}')
+
+@jsonattr('test.json')
+class MyClass:
+    pass
+    
+print(MyClass.x)
+print(MyClass.y)

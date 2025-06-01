@@ -1,0 +1,12 @@
+@snake_case()
+class MyClass:
+    FirstAttr = 1
+
+    def FirstMethod(self):
+        return 1
+
+
+obj = MyClass()
+
+print(MyClass.FirstAttr)
+print(obj.first_method())

@@ -1,0 +1,7 @@
+@add_attr_to_class(name='Кемаль', breed='Британский')
+class Cat:
+    pass
+
+
+print(Cat.name)
+print(Cat.breed)

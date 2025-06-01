@@ -1,0 +1,14 @@
+@limiter(2, 'ID', 'FIRST')
+class MyClass:
+    def __init__(self, ID, value):
+        self.ID = ID
+        self.value = value
+
+obj1 = MyClass(1, 5)          # создается экземпляр класса с идентификатором 1
+obj2 = MyClass(2, 8)          # создается экземпляр класса с идентификатором 2
+
+obj3 = MyClass(1, 20)         # возвращается obj1, так как экземпляр с идентификатором 1 уже есть
+obj4 = MyClass(3, 0)          # превышено ограничение limit, возвращается первый созданный экземпляр
+
+print(obj3.value)
+print(obj4.value)

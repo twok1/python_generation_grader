@@ -1,0 +1,8 @@
+@singleton
+class MyClass:
+    pass
+    
+obj1 = MyClass()
+obj2 = MyClass()
+
+print(obj1 is obj2)

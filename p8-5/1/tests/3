@@ -1,0 +1,11 @@
+@track_instances
+class Gun:
+    def __repr__(self):
+        return 'Gun()'
+
+
+for _ in range(10000):
+    cat = Gun()
+
+print(len(Gun.instances))
+print(Gun.instances[3245])

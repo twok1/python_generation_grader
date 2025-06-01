@@ -1,0 +1,11 @@
+with open('test.json', 'w') as file:
+    file.write('{"name": "John", "surname": "Doe"}')
+
+
+@jsonattr('test.json')
+class Person:
+    pass
+
+
+print(Person.name)
+print(Person.surname)

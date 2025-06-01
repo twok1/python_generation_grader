@@ -1,0 +1,19 @@
+@snake_case(attrs=True)
+class MyClass:
+    FirstAttr = 1
+    superSecondAttr = 2
+
+    def __init__(self):
+        self.MyName = 'John Doe'
+
+
+obj = MyClass()
+print(obj.MyName)
+
+myclass_attrs = ['FirstAttr', 'superSecondAttr']
+
+for attr in myclass_attrs:
+    try:
+        print(MyClass.__dict__[attr])
+    except KeyError:
+        print('атрибут отсутствует')

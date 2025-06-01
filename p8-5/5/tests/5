@@ -1,0 +1,13 @@
+@snake_case()
+class MyClass:
+    def FirstMethod(self):
+        return 1
+
+    def superSecondMethod(self):
+        return 2
+
+
+myclass_attrs = ['FirstMethod', 'superSecondMethod']
+
+for method in myclass_attrs:
+    print(getattr(MyClass, method, 'метод отсутствует'))

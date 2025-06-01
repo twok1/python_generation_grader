@@ -9,9 +9,8 @@ class ignore_exception:
         def wrapper(*args, **kwargs):
             try:
                 return func(*args, **kwargs)
-            except Exception as e:
-                if type(e) in self.exceptions:
-                    print(f'Исключение {e.__class__.__name__} обработано')
-                return e.__class__.__name__
+            except self.exceptions as e:
+                print(f'Исключение {e.__class__.__name__} обработано')
+                return e
         return wrapper
-    
+
