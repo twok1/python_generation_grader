@@ -1,0 +1,8 @@
+team = FootballTeam('PSG')
+
+print(team)
+print(team.name)
+print(team.players)
+
+team.add_players(FootballPlayer('Kylian', 'Mbappe', 180000000))
+print(team.players)

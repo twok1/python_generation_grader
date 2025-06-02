@@ -1,0 +1,4 @@
+for x in range(-3, 4):
+    for y in range(-3, 4):
+        point = Point(x, y)
+        print(point.symmetric_y())

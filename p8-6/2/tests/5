@@ -1,0 +1,2 @@
+musicalbum = MusicAlbum('Король и Шут', 'КиШ', 'Хоррор-панк', 1997)
+print(musicalbum)

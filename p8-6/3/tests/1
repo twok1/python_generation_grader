@@ -1,0 +1,6 @@
+point = Point()
+
+print(point)
+print(point.x)
+print(point.y)
+print(point.quadrant)

@@ -1,0 +1,6 @@
+city = City('Москва', 13015126, 1147)
+
+print(city)
+print(city.name)
+print(city.population)
+print(city.founded)

@@ -1,0 +1,2 @@
+Best
+[FootballPlayer(name='Ronaldo', surname=''), FootballPlayer(name='Lothar', surname='Matthaus'), FootballPlayer(name='Xavi', surname='Simons'), FootballPlayer(name='Paolo', surname='Maldini'), FootballPlayer(name='Лев', surname='Яшин'), FootballPlayer(name='Diego', surname='Maradona'), FootballPlayer(name='Lionel', surname='Messi'), FootballPlayer(name='Kristiano', surname='Ronaldo')]

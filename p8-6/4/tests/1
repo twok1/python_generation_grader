@@ -1,0 +1,6 @@
+player = FootballPlayer('Kylian', 'Mbappe', 180000000)
+
+print(player)
+print(player.name)
+print(player.surname)
+print(player.value)

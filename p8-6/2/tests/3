@@ -1,0 +1,6 @@
+musicalbum = MusicAlbum('Calendar', 'Motorama', 'Post-punk', 2012)
+
+try:
+    musicalbum.genre = 'Post-punk, New Wave, Indie Rock'
+except:
+    print('Error')

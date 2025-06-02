@@ -1,0 +1,1 @@
+MusicAlbum(title='Calendar', artist='Motorama')

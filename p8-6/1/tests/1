@@ -1,0 +1,6 @@
+city = City('Tokyo', 14043239, 1457)
+
+print(city)
+print(city.name)
+print(city.population)
+print(city.founded)

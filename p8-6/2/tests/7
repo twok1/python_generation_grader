@@ -1,0 +1,5 @@
+musicalbum1 = MusicAlbum('Calendar', 'Motorama', 'Post-punk', 2012)
+musicalbum2 = MusicAlbum('Poverty', 'Motorama', 'New Wave, Indie Rock', 2012)
+
+print(musicalbum1 == musicalbum2)
+print(musicalbum1 != musicalbum2)

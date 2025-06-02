@@ -1,0 +1,1 @@
+print(MusicAlbum('Calendar', 'Motorama', 'Post-punk', 2012))

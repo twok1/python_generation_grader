@@ -1,0 +1,8 @@
+player1 = FootballPlayer('Jude', 'Bellingham', 120000000)
+player2 = FootballPlayer('Vinicius', 'Junior', 120000000)
+player3 = FootballPlayer('Kylian', 'Mbappe', 180000000)
+
+print(player1 == player2)
+print(player1 == player3)
+print(player1 > player3)
+print(player1 < player3)

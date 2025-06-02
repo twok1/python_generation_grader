@@ -1,0 +1,1 @@
+MusicAlbum(title='Король и Шут', artist='КиШ')
