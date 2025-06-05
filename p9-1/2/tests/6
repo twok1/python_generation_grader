@@ -1,0 +1,10 @@
+vector1 = Vector(1, 2)
+vector2 = Vector(3, 4, 5)
+
+operations = ['vector1 + vector2', 'vector1 - vector2', 'vector1 * vector2', 'vector1 != vector2']
+
+for operation in operations:
+    try:
+        eval(operation)
+    except ValueError as e:
+        print(e)

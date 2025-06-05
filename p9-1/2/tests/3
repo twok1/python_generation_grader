@@ -1,0 +1,7 @@
+vector1 = Vector(1, 2, 3)
+vector2 = Vector(5, 6, 7, 8)
+
+try:
+    print(vector1 == vector2)
+except ValueError as e:
+    print(e)

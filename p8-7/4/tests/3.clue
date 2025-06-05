@@ -1,0 +1,1 @@
+Book({'title': 'The Hobbit', 'author': 'J.R.R. Tolkien', 'publication_year': 1937, 'genre': 'Fantasy', 'pages': 310, 'language': 'English', ...})

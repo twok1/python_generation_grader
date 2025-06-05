@@ -1,0 +1,17 @@
+class Inventory(LoggerMixin):
+    def check_stock(self, product_name, quantity):
+        if quantity > 5:
+            self.log('INFO', f'Количество товара "{product_name}" на складе = {quantity}.')
+        elif 1 <= quantity <= 5:
+            self.log('WARNING', f'Товар "{product_name}" заканчивается на складе. Количество товара = {quantity}.')
+        elif quantity == 0:
+            self.log('WARNING', f'Товар "{product_name}" отсутствует на складе.')
+        else:
+            self.log('ERROR', f'Не удалось проверить наличие товара "{product_name}" на складе.')
+
+inventory = Inventory()
+inventory.check_stock('Ручка', 54)
+inventory.check_stock('Карандаш', 13)
+inventory.check_stock('Тетрадь', 3)
+inventory.check_stock('Ластик', 0)
+inventory.check_stock('Линейка', -1)

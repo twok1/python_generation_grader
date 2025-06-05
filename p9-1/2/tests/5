@@ -1,0 +1,2 @@
+vector = Vector(18, 21, 14, 88)
+print(vector.norm())

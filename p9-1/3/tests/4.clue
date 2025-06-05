@@ -1,0 +1,2 @@
+['TkTg', 'LdJaS', 'RtGiPxC', 'LwXrW', 'LxIw', 'IwTgT', 'TcKxGdCbTcIpA', 'HiGjRiJgT', 'CtLh', 'IwGdL', 'CdIt', 'Xu', 'LxC', 'HwDjAsTg', 'CtTs', 'LwTgT', 'BtIwDs', 'UxGhI', 'RxKxA', 'QpHt']
+['EvEr', 'WoUlD', 'CeRtAiN', 'WhIcH', 'WiTh', 'ThErE', 'EnViRoNmEnTaL', 'StRuCtUrE', 'NeWs', 'ThRoW', 'NoTe', 'If', 'WiN', 'ShOuLdEr', 'NeEd', 'WhErE', 'MeThOd', 'FiRsT', 'CiViL', 'BaSe']

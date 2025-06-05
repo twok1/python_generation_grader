@@ -1,0 +1,4 @@
+cipher = CaesarCipher(10)
+
+print(cipher.encode('Beegeek'))
+print(cipher.decode('Gjjljjp'))

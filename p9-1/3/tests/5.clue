@@ -1,0 +1,2 @@
+['rxkxa😀', 'hd😁', 'gtvxdc☺', 'qtpi☺', 'pgixhi😍', 'rwdxrt🙃', 'xcrajst🤭', 'stvgtt😝', 'ejhw🤪', 'hxst😏', 'hxot🤥', 'edaxrn🤨', '🤨🤥😏🤪😝🤭🙃😍☺😁😀']
+['civil😀', 'so😁', 'region☺', 'beat☺', 'artist😍', 'choice🙃', 'include🤭', 'degree😝', 'push🤪', 'side😏', 'size🤥', 'policy🤨', '🤨🤥😏🤪😝🤭🙃😍☺😁😀']

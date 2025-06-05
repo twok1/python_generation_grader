@@ -1,0 +1,12 @@
+class AlmostEmpty(ToStringMixin):
+    def __init__(self):
+        self.__attribute = None
+
+obj = AlmostEmpty()
+
+for i in range(10):
+    obj.__dict__[f'attribute_{i}'] = None
+    obj.__dict__[f'_attribute_{i}'] = None
+
+print(str(obj))
+print(repr(obj))

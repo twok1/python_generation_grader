@@ -1,0 +1,8 @@
+class BankAccount(AttributesMixin):
+    def __init__(self, account_number, balance):
+        self._account_number = account_number 
+        self.__balance = balance
+
+bank_account = BankAccount(245980, 1000)
+print(bank_account.get_public_attributes())
+print(bank_account.get_protected_attributes())

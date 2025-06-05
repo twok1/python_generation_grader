@@ -1,0 +1,4 @@
+cipher = CaesarCipher(5)
+
+print(cipher.encode('Биgeek123'))
+print(cipher.decode('Биljjp123'))

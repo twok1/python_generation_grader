@@ -1,0 +1,9 @@
+class Order(AttributesMixin):
+    def __init__(self, order_id, customer_name):
+        self.order_id = order_id  
+        self._customer_name = customer_name  
+        self.__order_details = {}  
+
+order = Order(324154, 'Timur')
+print(order.get_public_attributes())
+print(order.get_protected_attributes())

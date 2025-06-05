@@ -1,0 +1,16 @@
+class Order(LoggerMixin):
+    def __init__(self, order_id):
+        self.order_id = order_id
+
+    def create_order(self):
+        self.log('INFO', f'Заказ № {self.order_id} создан.')
+
+    def cancel_order(self):
+        self.log('WARNING', f'Заказ № {self.order_id} отменен.')
+
+order1 = Order(9876287)
+order1.create_order()
+
+order2 = Order(4778616)
+order2.create_order()
+order2.cancel_order()

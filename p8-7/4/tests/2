@@ -1,0 +1,9 @@
+class Movie(ToStringMixin):
+    def __init__(self, title, director, rating):
+        self.title = title
+        self._director = director
+        self.__rating = rating
+
+movie = Movie('Interstellar', 'Christopher Nolan', 8.7)
+print(str(movie))
+print(repr(movie))

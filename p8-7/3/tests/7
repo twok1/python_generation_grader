@@ -1,0 +1,8 @@
+class Private(AttributesMixin):
+    def __init__(self):
+        self.__attr1 = None 
+        self.__attr2 = None 
+
+private = Private()
+print(private.get_public_attributes())
+print(private.get_protected_attributes())

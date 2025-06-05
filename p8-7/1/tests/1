@@ -1,0 +1,5 @@
+class Empty(JsonSerializableMixin):
+    pass
+
+obj = Empty()
+print(obj.to_json())

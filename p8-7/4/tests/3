@@ -1,0 +1,12 @@
+class Book(ToStringMixin):
+    def __init__(self, title, author, publication_year, genre, pages, language, publisher):
+        self.title = title            
+        self.author = author         
+        self.publication_year = publication_year 
+        self.genre = genre            
+        self.pages = pages            
+        self.language = language 
+        self.publisher = publisher            
+
+book = Book('The Hobbit', 'J.R.R. Tolkien', 1937, 'Fantasy', 310, 'English', 'George Allen & Unwin')
+print(book)

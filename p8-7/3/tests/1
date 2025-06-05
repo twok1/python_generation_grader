@@ -1,0 +1,9 @@
+class Cat(AttributesMixin):
+    def __init__(self, name, age, breed):
+        self.name = name
+        self.age = age
+        self._breed = breed
+        
+cat = Cat('Кемаль', 6, 'Британский')
+print(cat.get_public_attributes())
+print(cat.get_protected_attributes())

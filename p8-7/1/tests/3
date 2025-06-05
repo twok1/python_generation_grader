@@ -1,0 +1,11 @@
+class Country(JsonSerializableMixin):
+    def __init__(self, name, capital, phone_code):
+        self.name = name
+        self.capital = capital
+        self.phone_code = phone_code
+
+country = Country('Russia', 'Moscow', 7)
+result = json.loads(country.to_json())
+dct = {'name': 'Russia', 'capital': 'Moscow', 'phone_code': 7}
+print(isinstance(result, dict))
+print(result == dct)

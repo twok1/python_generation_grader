@@ -1,0 +1,6 @@
+class Empty(AttributesMixin):
+    pass
+
+obj = Empty()
+print(obj.get_public_attributes())
+print(obj.get_protected_attributes())

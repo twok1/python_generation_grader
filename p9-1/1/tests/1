@@ -1,0 +1,8 @@
+import math, re
+
+print(anything() != [])
+print(anything() < 'World')
+print(anything() > 81)
+print(anything() >= re)
+print(anything() <= math)
+print(anything() == ord)

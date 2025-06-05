@@ -1,0 +1,9 @@
+class Triangle(AttributesMixin):
+    def __init__(self, a, b, c):
+        self.a = a 
+        self.b = b 
+        self.c = c
+
+triangle = Triangle(3, 5, 4)
+print(triangle.get_public_attributes())
+print(triangle.get_protected_attributes())

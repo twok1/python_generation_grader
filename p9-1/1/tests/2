@@ -1,0 +1,6 @@
+print(anything() != set())
+print(anything() < {})
+print(anything() > ())
+print(anything() >= True)
+print(anything() <= False)
+print(anything() == id)

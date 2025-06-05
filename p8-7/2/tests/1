@@ -1,0 +1,10 @@
+class Database(LoggerMixin):
+    def connect(self):
+        self.log('INFO', 'Выполнено подключение к базе данных.')
+
+    def disconnect(self):
+        self.log('INFO', 'Подключение к базе данных закрыто.')
+
+db = Database()
+db.connect()
+db.disconnect()

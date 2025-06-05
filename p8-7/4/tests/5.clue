@@ -1,0 +1,2 @@
+AlmostEmpty({'_AlmostEmpty__attribute': None, 'attribute_0': None, '_attribute_0': None, 'attribute_1': None, '_attribute_1': None, 'attribute_2': None, ...})
+AlmostEmpty({'_AlmostEmpty__attribute': None, 'attribute_0': None, '_attribute_0': None, 'attribute_1': None, '_attribute_1': None, 'attribute_2': None, ...})

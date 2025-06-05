@@ -1,0 +1,3 @@
+cipher = CaesarCipher(1)
+print(cipher.encode('ZzzZzz'))
+print(cipher.decode('AaaAaa'))

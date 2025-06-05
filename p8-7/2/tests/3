@@ -1,0 +1,15 @@
+class Subscription(LoggerMixin):
+    def subscribe_user(self, user_id):
+        self.log('INFO', f'Пользователь id={user_id} купил подписку.')
+    
+    def unsubscribe_user(self, user_id):
+        self.log('WARNING', f'Пользователь id={user_id} отменил подписку.')
+    
+    def subscription_update_failed(self, user_id):
+        self.log('ERROR', f'Не удалось обновить подписку пользователя id={user_id}.')
+
+
+subscription = Subscription()
+subscription.subscribe_user(32720521)
+subscription.unsubscribe_user(90843698)
+subscription.subscription_update_failed(73520485)

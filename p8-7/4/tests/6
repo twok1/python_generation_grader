@@ -1,0 +1,12 @@
+class MyClass(ToStringMixin):
+    def __init__(self, **kwargs):
+        self.__dict__.update(kwargs)
+
+obj1 = MyClass()   
+obj2 = MyClass(a=1, b=2, c=3)
+obj3 = MyClass(a=1, b=2, c=3, d=4, e=5, f=6)
+obj4 = MyClass(a=1, b=2, c=3, d=4, e=5, f=6, g=7)
+print(obj1)
+print(obj2)
+print(obj3)
+print(obj4)
