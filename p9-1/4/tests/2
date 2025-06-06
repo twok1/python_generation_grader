@@ -1,0 +1,6 @@
+progression = GeometricProgression(1, 2)
+
+for elem in progression:
+    if elem > 10:
+        break
+    print(elem, end=' ')

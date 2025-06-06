@@ -1,0 +1,4 @@
+try:
+    domain1 = Domain('pygen..org')
+except DomainException as e:
+    print(e)

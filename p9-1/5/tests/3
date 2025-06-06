@@ -1,0 +1,7 @@
+domain1 = Domain('stepik.org')
+domain2 = Domain.from_url('https://stepik.org')
+domain3 = Domain.from_email('support@stepik.org')
+
+print(domain1)
+print(domain2)
+print(domain3)

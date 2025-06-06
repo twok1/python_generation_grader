@@ -1,0 +1,8 @@
+urls = ['http://evseeva.info/', 'https:://ip.com/', 'https://www.ao.ru', 'https:///ip.ru', 'https://zao.',
+        'https://.edu', 'http://oao.edu/', 'http://www.ip.com/', 'http://.org', 'http://abc.']
+
+for url in urls:
+    try:
+        domain = Domain.from_url(url)
+    except DomainException as e:
+        print(e)

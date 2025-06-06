@@ -1,0 +1,7 @@
+domain1 = Domain('pygen.ru')
+domain2 = Domain.from_url('https://pygen.ru')
+domain3 = Domain.from_email('support@pygen.ru')
+
+print(domain1)
+print(domain2)
+print(domain3)

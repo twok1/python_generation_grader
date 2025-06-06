@@ -1,0 +1,7 @@
+domains = ['nikitin..biz', '.org', 'katren.', 'kubanskaja.edu.', '.', 'i.p.com', 'ooo.info+']
+
+for d in domains:
+    try:
+        domain = Domain(d)
+    except DomainException as e:
+        print(e)

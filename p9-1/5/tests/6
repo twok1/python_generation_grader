@@ -1,0 +1,8 @@
+urls = ['http://npo.com', 'http://zao.biz', 'http://ooo.edu', 'https://ooo.ru', 'http://prioskole.net',
+        'http://ooo.com', 'http://bolshakova.biz', 'http://rao.biz', 'https://ip.biz', 'http://alekseev.ru',
+        'http://ooo.ru', 'http://zao.biz', 'http://pk.biz', 'https://rao.biz', 'http://npo.org',
+        'http://rao.com', 'http://rao.org', 'http://galkina.net', 'https://moskovskaja.biz', 'https://ao.ru']
+
+for url in urls:
+    domain = Domain.from_url(url)
+    print(domain)

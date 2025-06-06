@@ -1,0 +1,8 @@
+progression = ArithmeticProgression(100, -10)
+count = 0
+
+for item in progression:
+    if count == 20:
+        break
+    count += 1
+    print(item, end=' ')
