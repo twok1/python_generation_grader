@@ -1,0 +1,4 @@
+alphabet = list('abcdefghijklmnopqrstuvwxyz')
+
+pagination = Pagination(alphabet, 4)
+print(pagination.get_visible_items())
