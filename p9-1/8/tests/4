@@ -1,0 +1,26 @@
+papers = [
+    Testpaper('Maths', ['1A', '2C', '3D', '4A', '5A'], '60%'),
+    Testpaper('Chemistry', ['1C', '2C', '3D', '4A'], '75%'),
+    Testpaper('Computing', ['1D', '2C', '3C', '4B', '5D', '6C', '7A'], '75%'),
+    Testpaper(
+        'Informatics',
+        ['1A', '2A', '3A', '4A', '5A', '6C', '7A', '8A', '9D', '10B', '11C', '12A', '13C', '14B', '15B', '16B', '17D',
+         '18B', '19D', '20D'],
+        '90%'
+    )
+]
+
+student = Student()
+
+student.choices = [
+    ['1A', '2C', '3D', '4B', '5A'],
+    ['1C', '2A', '3D', '4A'],
+    ['1D', '2C', '3C', '4B', '5D', '6A', '7A'],
+    ['1A', '2A', '3A', '4A', '5A', '6C', '7A', '8B', '9D', '10B', '11C', '12A', '13C', '14B', '15B', '16B', '17D',
+     '18B', '19D', '20D']
+]
+
+for i in range(4):
+    student.take_test(papers[i], student.choices[i])
+
+print(student.tests_taken)

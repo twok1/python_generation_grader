@@ -1,0 +1,2 @@
+{'Maths': 'Failed! (20%)', 'Chemistry': 'Failed! (0%)', 'Computing': 'Failed! (14%)', 'Informatics': 'Failed! (30%)'}
+{'Maths': 'Failed! (40%)', 'Chemistry': 'Failed! (50%)', 'Computing': 'Failed! (29%)', 'Informatics': 'Failed! (30%)'}

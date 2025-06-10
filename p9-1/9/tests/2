@@ -1,0 +1,14 @@
+tictactoe = TicTacToe()
+
+tictactoe.mark(1, 1)
+tictactoe.mark(3, 2)
+tictactoe.mark(1, 1)
+
+tictactoe.mark(1, 3)
+tictactoe.mark(1, 2)
+tictactoe.mark(3, 3)
+tictactoe.mark(2, 2)
+tictactoe.mark(2, 3)
+
+print(tictactoe.winner())
+tictactoe.show()
